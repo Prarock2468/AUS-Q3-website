@@ -1,0 +1,380 @@
+{
+  "title": "Logistics Industry Solutions",
+  "path": "/industries/logistics",
+  "template": "industryDetail",
+  "_status": "published",
+  "searchSection": "Company",
+  "searchDescription": "Optimize logistics and supply chain operations with custom transportation, warehouse and fleet management software that improves visibility and efficiency.",
+  "meta": {
+    "title": "Logistics Software Development Company for Supply Chains | Q3 Technologies",
+    "description": "Optimize logistics and supply chain operations with custom transportation, warehouse and fleet management software that improves visibility and efficiency."
+  },
+  "seoExtras": {
+    "globalUrl": "https://www.q3tech.com/logistics-software-development/"
+  },
+  "layout": [
+    {
+      "blockType": "htmlSection",
+      "label": "Logistics Software Development",
+      "html": "<section class=\"ind-hero\" aria-labelledby=\"ind-hero-title\">\n  <div class=\"ind-hero__in\">\n    <nav class=\"breadcrumb\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/\">Home</a></li><li><a href=\"/industries\">Industries</a></li><li aria-current=\"page\">Logistics</li></ol></nav>\n    <div class=\"ind-hero__top\">\n      <h1 id=\"ind-hero-title\">Logistics<br>Software Development</h1>\n      <div class=\"ind-hero__side\">\n        <p>We build AI-powered fleet management, warehouse automation, and freight platforms for logistics and transportation companies across 21 countries, connecting shipment, carrier, and warehouse data into one operational view.</p>\n        <div class=\"ind-hero__btns\">\n      <a class=\"ind-btn ind-btn--primary\" href=\"/contact\">Talk to Our Experts <svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M6 14L14 6M7 6h7v7\"></path></svg></a>\n      <a class=\"ind-btn ind-btn--ghost\" href=\"/case-studies\">View case studies <svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M6 14L14 6M7 6h7v7\"></path></svg></a>\n    </div>\n      </div>\n    </div>\n    <figure class=\"ind-hero__media\"><img src=\"/assets/images/industry-details/logistics/hero.webp\" srcset=\"/assets/images/industry-details/logistics/hero-800.webp 800w, /assets/images/industry-details/logistics/hero.webp 1344w\" sizes=\"100vw\" alt=\"Logistics Software Development\" width=\"1344\" height=\"600\" fetchpriority=\"high\"></figure>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "sharedSection",
+      "section": "brands",
+      "blockName": "Client logos"
+    },
+    {
+      "blockType": "htmlSection",
+      "label": "What We Do",
+      "html": "<section class=\"section alt wwd\" aria-labelledby=\"wwd-title\">\n  <div class=\"wrap\">\n    <div class=\"wwd-head\">\n      <h2 id=\"wwd-title\">What We Do</h2>\n      <p>We build software across six logistics functions: shipping and distribution, fleet management, telematics, freight, warehousing, and order management.</p>\n    </div>\n    <ul class=\"wwd-list\" data-wwd=\"\">\n      <li class=\"wwd-card is-active\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-1\" aria-expanded=\"true\" aria-controls=\"wwd-panel-1\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/logistics/shipping-logistics-management.svg\" alt=\"\" width=\"32\" height=\"32\">Shipping Logistics Management</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-1\" role=\"region\" aria-labelledby=\"wwd-btn-1\">\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>Our shipping and distribution platforms automate shipment planning, warehouse workflows, billing, and documentation, so operations teams stop reconciling shipment data across spreadsheets, carrier portals, and warehouse systems by hand.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Automated shipment planning and scheduling</li><li>Warehouse workflow automation and billing integration</li><li>Shipment documentation and compliance management</li><li>End-to-end supply chain visibility and reporting</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"458\" src=\"/assets/images/industry-details/logistics/shipping-logistics-management.webp\" alt=\"Shipping Logistics Management\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-2\" aria-expanded=\"false\" aria-controls=\"wwd-panel-2\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/logistics/fleet-management-software-development.svg\" alt=\"\" width=\"32\" height=\"32\">Fleet Management Software Development</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-2\" role=\"region\" aria-labelledby=\"wwd-btn-2\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We build fleet management platforms that track vehicle location, fuel usage, driver performance, and maintenance schedules in real time, helping transportation teams cut fuel costs and reduce vehicle downtime.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Real-time GPS vehicle tracking and live fleet visibility</li><li>Fuel consumption monitoring and efficiency reporting</li><li>Driver performance analytics and behavioral scoring</li><li>Predictive maintenance scheduling and alert management</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/logistics/fleet-management-software-development.webp\" alt=\"Fleet Management Software Development\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-3\" aria-expanded=\"false\" aria-controls=\"wwd-panel-3\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/logistics/telematics-software-development.svg\" alt=\"\" width=\"32\" height=\"32\">Telematics Software Development</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-3\" role=\"region\" aria-labelledby=\"wwd-btn-3\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>Our telematics solutions combine GPS, IoT sensors, and analytics to monitor vehicle diagnostics and driver behavior in real time, giving fleet managers the data to improve utilization and catch safety issues early.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>GPS and IoT-based real-time vehicle diagnostics</li><li>Driver behavior monitoring and safety scoring</li><li>Live traffic analytics and adaptive routing</li><li>Fleet utilization reporting and performance dashboards</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/logistics/telematics-software-development.webp\" alt=\"Telematics Software Development\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-4\" aria-expanded=\"false\" aria-controls=\"wwd-panel-4\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/logistics/asset-tracking-software-development.svg\" alt=\"\" width=\"32\" height=\"32\">Asset Tracking Software Development</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-4\" role=\"region\" aria-labelledby=\"wwd-btn-4\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We build asset tracking systems that monitor vehicles, equipment, containers, and high-value assets in real time, giving logistics teams one dashboard for asset visibility, maintenance schedules, and inventory levels.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Real-time tracking of vehicles, containers, and equipment</li><li>Centralized asset visibility and status dashboards</li><li>Preventive maintenance tracking and scheduling</li><li>Inventory management and asset lifecycle reporting</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/logistics/asset-tracking-software-development.webp\" alt=\"Asset Tracking Software Development\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-5\" aria-expanded=\"false\" aria-controls=\"wwd-panel-5\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/logistics/logistics-freight-management.svg\" alt=\"\" width=\"32\" height=\"32\">Logistics and Freight Management</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-5\" role=\"region\" aria-labelledby=\"wwd-btn-5\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We build freight management platforms for shipment planning, freight analysis, carrier management, and forecasting. These platforms give logistics teams better freight visibility and help lower transportation costs.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Shipment planning, freight analysis, and carrier management</li><li>Multi-modal freight visibility and tracking</li><li>Freight cost optimization and transportation analytics</li><li>Carrier performance reporting and forecasting</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/logistics/logistics-and-freight-management.webp\" alt=\"Logistics and Freight Management\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-6\" aria-expanded=\"false\" aria-controls=\"wwd-panel-6\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/logistics/order-management.svg\" alt=\"\" width=\"32\" height=\"32\">Order Management</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-6\" role=\"region\" aria-labelledby=\"wwd-btn-6\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>Our order management platforms automate order capture, fulfillment, pricing, and customer communication across multiple channels, so orders move faster and customers get consistent updates.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Automated order capture and multi-channel fulfillment</li><li>Dynamic pricing management and discount configuration</li><li>Customer communication automation and order status tracking</li><li>Global order management and cross-border compliance support</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/logistics/order-management.webp\" alt=\"Order Management\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-7\" aria-expanded=\"false\" aria-controls=\"wwd-panel-7\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/logistics/warehouse-management.svg\" alt=\"\" width=\"32\" height=\"32\">Warehouse Management</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-7\" role=\"region\" aria-labelledby=\"wwd-btn-7\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We design warehouse platforms that use AI to optimize inventory control, picking operations, and workforce scheduling. This improves inventory accuracy and speeds up day-to-day warehouse workflows.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>AI-driven inventory control and storage optimization</li><li>Picking, packing, and dispatch workflow automation</li><li>Workforce productivity tracking and labor management</li><li>Real-time warehouse visibility and operational reporting</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/logistics/warehouse-management.webp\" alt=\"Warehouse Management\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-8\" aria-expanded=\"false\" aria-controls=\"wwd-panel-8\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/logistics/real-time-route-optimization.svg\" alt=\"\" width=\"32\" height=\"32\">Real-Time Route Optimization</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-8\" role=\"region\" aria-labelledby=\"wwd-btn-8\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We build AI-powered route optimization tools that combine historical trip data, live traffic, and predictive analytics to adjust delivery routes in real time, cutting fuel costs and improving on-time delivery rates.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>AI-powered dynamic route planning and optimization</li><li>Live traffic integration and adaptive re-routing</li><li>Predictive delivery time estimation and scheduling</li><li>Fuel cost reduction and on-time delivery performance tracking</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/logistics/real-time-route-optimization.webp\" alt=\"Real-Time Route Optimization\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n    </ul>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "htmlSection",
+      "label": "Challenges We Address in Logistics",
+      "html": "<section class=\"section chl\" aria-labelledby=\"chl-title\" data-chl=\"\">\n  <div class=\"chl__pin\">\n  <img width=\"1897\" height=\"917\" class=\"chl__bg\" src=\"/assets/images/industry-details/challenges-bg.webp\" srcset=\"/assets/images/industry-details/challenges-bg-800.webp 800w, /assets/images/industry-details/challenges-bg.webp 1600w\" sizes=\"(max-width: 800px) 100vw, 1600px\" alt=\"\" loading=\"lazy\" decoding=\"async\">\n  <div class=\"wrap\">\n    <h2 id=\"chl-title\">Challenges We Address in Logistics</h2>\n  </div>\n  <div class=\"chl__rail\">\n    <ul class=\"chl__track\" aria-label=\"Challenges\" tabindex=\"0\">\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/logistics/challenges/improving-supply-chain-visibility-icon.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Improving Supply Chain Visibility</h3><ul class=\"chl-card__list\"><li>Fragmented shipment tracking</li><li>Siloed logistics data</li><li>Multi-carrier ecosystems</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/logistics/challenges/ensuring-real-time-fleet-oversight-icon.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Ensuring Real-Time Fleet Oversight</h3><ul class=\"chl-card__list\"><li>Limited GPS and IoT integration</li><li>Manual maintenance scheduling</li><li>Driver performance gaps</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/logistics/challenges/managing-complex-freight-operations-icon.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Managing Complex Freight Operations</h3><ul class=\"chl-card__list\"><li>Manual freight billing</li><li>Carrier contract complexity</li><li>Cross-border compliance</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/logistics/challenges/optimizing-warehouse-efficiency-icon.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Optimizing Warehouse Efficiency</h3><ul class=\"chl-card__list\"><li>Inventory inaccuracy</li><li>Manual picking processes</li><li>Storage utilization gaps</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/logistics/challenges/reducing-operational-costs-icon.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Reducing Operational Costs</h3><ul class=\"chl-card__list\"><li>Fuel and route inefficiency</li><li>Idle asset management</li><li>Over-staffing due to manual ops</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/logistics/challenges/meeting-regulatory-compliance-icon.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Meeting Regulatory Compliance</h3><ul class=\"chl-card__list\"><li>Transport safety regulations</li><li>Cross-border documentation</li><li>Environmental reporting requirements</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/logistics/challenges/integrating-legacy-systems-icon.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Integrating Legacy Systems</h3><ul class=\"chl-card__list\"><li>Aging TMS and WMS platforms</li><li>Complex migration risks</li><li>Continuity-of-operations demands</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/logistics/challenges/accelerating-digital-transformation-icon.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Accelerating Digital Transformation</h3><ul class=\"chl-card__list\"><li>Slow adoption of AI and IoT</li><li>Data-driven decision-making gaps</li><li>Scalability limitations</li></ul></li>\n    </ul>\n    <div class=\"chl__bar\" aria-hidden=\"true\"><span></span></div>\n  </div>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "htmlSection",
+      "label": "Benefits Of Our Logistics Software Services",
+      "html": "<section class=\"section bnf\" aria-labelledby=\"bnf-title\">\n  <div class=\"wrap bnf__in\">\n    <div class=\"bnf__intro\">\n      <h2 id=\"bnf-title\">Benefits Of Our Logistics Software Services</h2>\n      <p>We work with transportation providers, 3PLs, freight forwarders, and supply chain organizations to modernize operations and improve service quality.</p>\n      <img width=\"672\" height=\"600\" class=\"bnf__img\" src=\"/assets/images/industry-details/logistics/benefits.webp\" alt=\"Logistics software solutions\" loading=\"lazy\" decoding=\"async\">\n    </div>\n    <ol class=\"bnf__list\">\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0\"></path><circle cx=\"12\" cy=\"12\" r=\"3\"></circle></svg></span><h3>Enhanced Supply Chain Visibility</h3><p>Real-time tracking, centralized dashboards, and connected logistics systems give visibility across the supply chain, so decisions can be made before problems escalate rather than after.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m12 14 4-4\"></path><path d=\"M3.34 19a10 10 0 1 1 17.32 0\"></path></svg></span><h3>Improved Fleet Efficiency</h3><p>AI-driven route optimization, fuel monitoring, and predictive maintenance help logistics organizations lower operating costs and get more consistent use out of their fleets.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8\"></path><path d=\"M12 18V6\"></path></svg></span><h3>Reduced Operational Costs</h3><p>Automating logistics workflows and streamlining freight and warehouse processes helps organizations cut costs across the supply chain.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z\"></path></svg></span><h3>Faster Order Fulfillment</h3><p>Order management and warehouse automation speed up picking, packing, and dispatch, which shortens delivery times and improves the customer experience.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\"></path><path d=\"m9 12 2 2 4-4\"></path></svg></span><h3>Stronger Regulatory Compliance</h3><p>With integrated compliance frameworks, automated documentation, and secure data management practices, we help organizations meet transportation regulations and maintain operational compliance across global logistics networks.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z\"></path></svg></span><h3>Scalability for Growing Operations</h3><p>Our cloud-native logistics platforms scale with growing shipment volumes and distribution networks without requiring a full infrastructure rebuild.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path></svg></span><h3>Connected System Integration</h3><p>Using APIs and integration frameworks, we connect ERP, CRM, carrier systems, and telematics platforms so data moves between systems without manual re-entry.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 3v18h18\"></path><path d=\"M18 17V9\"></path><path d=\"M13 17V5\"></path><path d=\"M8 17v-3\"></path></svg></span><h3>Data-Driven Decision-Making</h3><p>Analytics platforms, KPI dashboards, and AI-powered forecasting give logistics leaders the data to optimize operations and make faster strategic decisions.</p></li>\n    </ol>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "sharedSection",
+      "section": "caseStudyStories",
+      "blockName": "Case studies slider"
+    },
+    {
+      "blockType": "sharedSection",
+      "section": "testimonials",
+      "blockName": "Testimonials"
+    },
+    {
+      "blockType": "htmlSection",
+      "label": "Why Choose Us as Your Logistics Software Development Company",
+      "html": "<section class=\"invest\" aria-label=\"Why Choose Us as Your Logistics Software Development Company\">\n  <div class=\"invest__in\">\n    <div class=\"sec-head\">\n      <h2>Why Choose Us as Your Logistics Software Development Company</h2>\n      <p class=\"sec-head__p\" style=\"width:1222px\">We build logistics software across AI, IoT, fleet management, warehouse automation, and transportation systems. Our integration-first approach connects existing ERP, carrier, and telematics systems instead of replacing them outright.</p>\n    </div>\n    <div class=\"invest__cards\" data-carousel=\"invest\">\n      <button class=\"invest__arrow invest__arrow--prev\" type=\"button\" aria-label=\"Previous cards\" disabled=\"\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M19 12H5M11 6l-6 6 6 6\"></path></svg></button>\n      <div class=\"invest__viewport\" tabindex=\"0\" role=\"region\" aria-label=\"Cards\">\n        <div class=\"invest__track\">\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16\"></path><rect width=\"20\" height=\"14\" x=\"2\" y=\"6\" rx=\"2\"></rect></svg><h3>Logistics and Transportation Domain Experience</h3></div><p>Our teams have delivered projects across fleet management, freight forwarding, 3PL operations, warehouse automation, and telematics, and understand the compliance and integration requirements specific to logistics organizations.</p></div></div>\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\"></path><path d=\"M20 3v4\"></path><path d=\"M22 5h-4\"></path><path d=\"M4 17v2\"></path><path d=\"M5 18H3\"></path></svg><h3>AI and IoT-Driven Logistics Engineering</h3></div><p>We build AI-powered route optimization, IoT telematics integration, and predictive analytics into logistics platforms to improve day-to-day operational performance.</p></div></div>\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\"></path><path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\"></path></svg><h3>Integration-First Architecture</h3></div><p>Logistics platforms we build connect to ERP systems, carrier APIs, customs portals, and telematics providers through documented APIs, so data moves between systems without manual re-entry.</p></div></div>\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"8\" r=\"6\"></circle><path d=\"M15.477 12.89 17 22l-5-3-5 3 1.523-9.11\"></path></svg><h3>Strategic Partnerships with Leading Technology Providers</h3></div><p>Partnerships with Microsoft, Salesforce, UiPath, and Samsung SDS give our logistics platforms direct access to their cloud, automation, and CRM technologies.</p></div></div>\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z\"></path><path d=\"m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65\"></path><path d=\"m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65\"></path></svg><h3>Full Lifecycle Engineering Support</h3></div><p>We cover the full lifecycle for logistics platforms: product strategy, UX design, development, integration, QA, cloud operations, and managed it support, all from one engineering team.</p></div></div>\n        </div>\n      </div>\n      <button class=\"invest__arrow invest__arrow--next\" type=\"button\" aria-label=\"Next cards\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"></path></svg></button>\n    </div>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently asked questions",
+      "style": "section",
+      "intro": "Find quick answers to the most commonly asked questions about our services, process, pricing, timelines, and support.",
+      "showSalesContact": true,
+      "blockName": "FAQs (9)",
+      "items": [
+        {
+          "question": "What are logistics software development services?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Logistics software development means building custom platforms for transportation, warehousing, freight, and supply chain operations, including fleet management, warehouse automation, and route optimization.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "What types of logistics organizations do you work with?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "We work with third-party logistics providers, freight forwarders, fleet operators, shipping companies, e-commerce distributors, warehouse operators, and enterprises with complex transportation requirements.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "What is the difference between a TMS, WMS, and a custom logistics platform?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "A TMS plans and optimizes freight movements; a WMS manages warehouse inventory and fulfillment. A custom platform can combine both with fleet management and analytics.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "How do you integrate logistics software with existing ERP and carrier systems?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "We integrate logistics software using open APIs, RESTful web services, EDI connectivity, and custom middleware, enabling real-time data exchange with ERP, carrier, and customs systems.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "How long does it take to develop a custom logistics software platform?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Timelines depend on complexity and scope: single-module platforms like fleet or warehouse management take three to six months; full platforms take nine to eighteen months.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "Can you build mobile applications for logistics drivers and field operations teams?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Yes. We build native and cross-platform mobile apps for drivers, dispatchers, and field teams, including delivery confirmation, live GPS navigation, proof-of-delivery capture, and real-time communication.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "How do you ensure logistics software platforms perform reliably at scale?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "We use performance testing, load testing, automated regression testing, and security validation, backed by QA frameworks, to ensure consistent performance under peak shipment volumes.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "What ongoing support do you provide after a logistics platform goes live?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Post-launch support includes application management, cloud operations, performance monitoring, security patching, and continuous feature development to keep platforms secure and adaptable to changing requirements.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "Can you modernize or replace a legacy logistics or TMS platform without disrupting operations?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Yes. We modernize legacy platforms through phased replacement, parallel running, cloud replatforming, or incremental refactoring, chosen based on risk tolerance, to preserve workflows during migration.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "blockType": "contactBand",
+      "heading": "Let’s Solve Your Next Technology Challenge",
+      "text": "Talk to our expert and get clarity on your roadmap—no pressure, no obligations.",
+      "thanksText": "Our Australian team will reply within 4 business hours (AEST).",
+      "blockName": "Contact form: Let’s Solve Your Next Technology Challenge"
+    }
+  ]
+}

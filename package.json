@@ -1,0 +1,79 @@
+{
+  "name": "q3-au-website",
+  "version": "1.0.0",
+  "description": "Q3 Technologies Australia website: Next.js 16 + Payload CMS 3",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "cross-env NODE_OPTIONS=\"--no-deprecation --max-old-space-size=8000\" next build --webpack",
+    "dev": "cross-env NODE_OPTIONS=--no-deprecation next dev --webpack",
+    "devsafe": "cross-env NODE_OPTIONS=--no-deprecation next dev --webpack",
+    "generate:importmap": "cross-env NODE_OPTIONS=--no-deprecation payload generate:importmap",
+    "generate:types": "cross-env NODE_OPTIONS=--no-deprecation payload generate:types",
+    "lint": "cross-env NODE_OPTIONS=--no-deprecation eslint .",
+    "payload": "cross-env NODE_OPTIONS=--no-deprecation payload",
+    "start": "cross-env NODE_OPTIONS=--no-deprecation next start",
+    "seed": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/index.ts",
+    "migrate": "cross-env NODE_OPTIONS=--no-deprecation payload migrate",
+    "migrate:create": "cross-env NODE_OPTIONS=--no-deprecation payload migrate:create",
+    "migrate:status": "cross-env NODE_OPTIONS=--no-deprecation payload migrate:status",
+    "ci": "npm run migrate && npm run build",
+    "seed:industries": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/industries/run.ts",
+    "seed:common": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/common/run.ts",
+    "seed:header-menu": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/header-menu/run.ts",
+    "seed:client-logos": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/client-logos/run.ts",
+    "seed:faq": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/faq/run.ts",
+    "seed:faq-pages": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/faq/pages.ts",
+    "seed:home-services": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/home-services/run.ts",
+    "seed:home-industries": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/home-industries/run.ts",
+    "seed:home-hero": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/home-hero/run.ts",
+    "seed:home-about": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/home-about/run.ts",
+    "seed:testimonials": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/testimonials/run.ts",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@payloadcms/db-postgres": "3.93.0",
+    "@payloadcms/db-sqlite": "3.93.0",
+    "@payloadcms/email-nodemailer": "3.93.0",
+    "@payloadcms/live-preview-react": "3.93.0",
+    "@payloadcms/next": "3.93.0",
+    "@payloadcms/plugin-form-builder": "3.93.0",
+    "@payloadcms/plugin-redirects": "3.93.0",
+    "@payloadcms/plugin-seo": "3.93.0",
+    "@payloadcms/richtext-lexical": "3.93.0",
+    "@payloadcms/storage-s3": "3.93.0",
+    "@payloadcms/ui": "3.93.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "16.4.7",
+    "graphql": "^16.8.1",
+    "next": "16.4.6",
+    "payload": "3.93.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "sharp": "0.35.5"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.10.2",
+    "@playwright/test": "1.56.0",
+    "@types/jsdom": "^30.0.0",
+    "@types/node": "22.19.9",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "cheerio": "^1.2.0",
+    "eslint": "^9.16.0",
+    "eslint-config-next": "16.4.6",
+    "jsdom": "28.0.0",
+    "prettier": "^3.4.2",
+    "tsx": "4.23.15",
+    "typescript": "5.7.3"
+  },
+  "engines": {
+    "node": "^22.23.4 || >=24.22.1"
+  },
+  "overrides": {
+    "happy-dom": "21.0.4"
+  },
+  "optionalDependencies": {
+    "@next/swc-win32-x64-msvc": "^16.4.6"
+  }
+}

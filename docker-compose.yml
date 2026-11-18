@@ -1,0 +1,18 @@
+# Optional: a local PostgreSQL in Docker, instead of installing PostgreSQL on your computer.
+#   docker compose up -d
+#   then set DATABASE_URL=postgres://q3:q3@localhost:5432/q3 in .env and run: npm run migrate && npm run seed
+services:
+  postgres:
+    image: postgres:17
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: q3
+      POSTGRES_PASSWORD: q3
+      POSTGRES_DB: q3
+    ports:
+      - '5432:5432'
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

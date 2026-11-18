@@ -1,0 +1,42 @@
+/* Mobile menu accordion: each dropdown heading gets an arrow button; its submenu starts closed. The panel is a
+   two-column grid so the heading link and its arrow share a row while the DOM stays flat. */
+.mobile-nav__panel{display:grid;grid-template-columns:minmax(0,1fr) auto;align-content:start}
+.mobile-nav__panel>*{grid-column:1/-1}
+.mobile-nav__panel>a.has-sub{grid-column:1}
+.mobile-nav__panel>.mobile-nav__toggle{grid-column:2;display:flex;align-items:center;justify-content:end;width:48px;padding:0;border:0;border-bottom:1px solid var(--line);background:none;color:var(--fg);cursor:pointer}
+.mobile-nav__toggle svg{width:20px;height:20px;transition:transform var(--dur-220,.22s) var(--ease,ease)}
+.mobile-nav__toggle[aria-expanded=true] svg{transform:rotate(180deg)}
+.mobile-nav__toggle:focus-visible{outline:2px solid currentColor;outline-offset:-4px}
+.mobile-nav__panel>.sub[hidden]{display:none}
+@media (prefers-reduced-motion:reduce){.mobile-nav__toggle svg{transition:none}}
+
+/* Keep scrolling inside the open mobile menu from chaining to the page behind it. */
+.mobile-nav__panel{overscroll-behavior:contain}
+
+/* Dimmed overlay behind the open mobile menu (sits under the fixed header, z-index 100). */
+.mobile-nav__overlay{position:fixed;inset:0;z-index:99;background:rgba(0,0,0,.55);touch-action:none;animation:mobileNavFade var(--dur-220,.22s) var(--ease,ease)}
+@keyframes mobileNavFade{from{opacity:0}to{opacity:1}}
+@media (min-width:1181px){.mobile-nav__overlay{display:none}}
+@media (prefers-reduced-motion:reduce){.mobile-nav__overlay{animation:none}}
+
+/* Mobile menu button: a round icon button (same size as the search button) with a hamburger that turns into a
+   cross while the menu is open. The "Menu" label stays for screen readers only. */
+.mobile-nav>summary,.site-header .mobile-nav>summary{display:inline-flex;align-items:center;justify-content:center;width:35px;height:35px;min-height:0;padding:0; border: 1px solid currentColor;}
+.mobile-nav__icon{position:relative;display:block;width:18px;height:14px}
+.mobile-nav__icon>span{position:absolute;left:0;width:100%;height:2px;border-radius:2px;background:currentColor;transition:transform var(--dur-300,.3s) var(--ease,ease),opacity var(--dur-200,.2s) ease,top var(--dur-300,.3s) var(--ease,ease)}
+.mobile-nav__icon>span:nth-child(1){top:0}
+.mobile-nav__icon>span:nth-child(2){top:6px}
+.mobile-nav__icon>span:nth-child(3){top:12px}
+.mobile-nav[open] .mobile-nav__icon>span:nth-child(1){top:6px;transform:rotate(45deg)}
+.mobile-nav[open] .mobile-nav__icon>span:nth-child(2){opacity:0;transform:scaleX(0)}
+.mobile-nav[open] .mobile-nav__icon>span:nth-child(3){top:6px;transform:rotate(-45deg)}
+.mobile-nav>summary:focus-visible{outline:2px solid currentColor;outline-offset:2px}
+@media (max-width:480px){.mobile-nav>summary,.site-header .mobile-nav>summary{width:35px;height:35px}}
+@media (max-width:380px){.mobile-nav>summary,.site-header .mobile-nav>summary{width:35px;height:35px}}
+@media (prefers-reduced-motion:reduce){.mobile-nav__icon>span{transition:none}}
+
+/* Search dialog: the dimmed overlay covers the whole viewport (header included), like the mobile menu overlay,
+   instead of leaving the header strip clear. The panel still drops in just below the header (--search-top). */
+dialog.search{background:rgba(0,0,0,.55);overscroll-behavior:contain;touch-action:none;animation:mobileNavFade var(--dur-220,.22s) var(--ease,ease)}
+dialog.search .search-panel{touch-action:auto}
+@media (prefers-reduced-motion:reduce){dialog.search{animation:none}}

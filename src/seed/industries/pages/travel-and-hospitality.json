@@ -1,0 +1,346 @@
+{
+  "title": "Travel and Hospitality Industry Solutions",
+  "path": "/industries/travel-and-hospitality",
+  "template": "industryDetail",
+  "_status": "published",
+  "searchSection": "Company",
+  "searchDescription": "Build travel and hospitality software including hotel management systems, booking platforms and guest engagement solutions that enhance customer experiences.",
+  "meta": {
+    "title": "Travel and Hospitality Software Development Company | Q3 Technologies",
+    "description": "Build travel and hospitality software including hotel management systems, booking platforms and guest engagement solutions that enhance customer experiences."
+  },
+  "seoExtras": {
+    "globalUrl": "https://www.q3tech.com/hospitality-travel-software-development/"
+  },
+  "layout": [
+    {
+      "blockType": "htmlSection",
+      "label": "Travel and Hospitality Software Development",
+      "html": "<section class=\"ind-hero\" aria-labelledby=\"ind-hero-title\">\n  <div class=\"ind-hero__in\">\n    <nav class=\"breadcrumb\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/\">Home</a></li><li><a href=\"/industries\">Industries</a></li><li aria-current=\"page\">Travel and Hospitality</li></ol></nav>\n    <div class=\"ind-hero__top\">\n      <h1 id=\"ind-hero-title\">Travel and Hospitality<br>Software Development</h1>\n      <div class=\"ind-hero__side\">\n        <p>Our travel and hospitality software development services include hotel booking software, cab booking app development, food delivery app development, restaurant management software, and hotel management software for travel operators, hotels, restaurants, and on-demand mobility platforms.</p>\n        <div class=\"ind-hero__btns\">\n      <a class=\"ind-btn ind-btn--primary\" href=\"/contact\">Talk to Our Experts <svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M6 14L14 6M7 6h7v7\"></path></svg></a>\n      <a class=\"ind-btn ind-btn--ghost\" href=\"/case-studies\">View case studies <svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M6 14L14 6M7 6h7v7\"></path></svg></a>\n    </div>\n      </div>\n    </div>\n    <figure class=\"ind-hero__media\"><img src=\"/assets/images/industry-details/travel-and-hospitality/hero.webp\" srcset=\"/assets/images/industry-details/travel-and-hospitality/hero-800.webp 800w, /assets/images/industry-details/travel-and-hospitality/hero.webp 1344w\" sizes=\"100vw\" alt=\"Travel and Hospitality Software Development\" width=\"1344\" height=\"554\" fetchpriority=\"high\"></figure>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "sharedSection",
+      "section": "brands",
+      "blockName": "Client logos"
+    },
+    {
+      "blockType": "htmlSection",
+      "label": "What We Do",
+      "html": "<section class=\"section alt wwd\" aria-labelledby=\"wwd-title\">\n  <div class=\"wrap\">\n    <div class=\"wwd-head\">\n      <h2 id=\"wwd-title\">What We Do</h2>\n      <p>Travel and hospitality operate at the intersection of real-time logistics, high-volume transactions, and consumer expectations shaped by category leaders like Uber, Swiggy, Zomato, and Airbnb. Whether you are building a hotel booking engine, a cab-hailing platform, a food-delivery marketplace, or a guest engagement app, the bar for speed, reliability, and personalisation is set by the best digital experiences in the world.</p>\n    </div>\n    <ul class=\"wwd-list\" data-wwd=\"\">\n      <li class=\"wwd-card is-active\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-1\" aria-expanded=\"true\" aria-controls=\"wwd-panel-1\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/travel-and-hospitality/cab-booking-app-development.svg\" alt=\"\" width=\"32\" height=\"32\">Cab Booking App Development</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-1\" role=\"region\" aria-labelledby=\"wwd-btn-1\">\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We design and build scalable cab-booking and ride-hailing platforms covering the complete rider, driver, and dispatch lifecycle, with dedicated iOS, Android, and web applications. Inspired by platforms such as Uber, Ola, and Lyft, our solutions support real-time GPS tracking, geolocation-based driver matching, intelligent dispatch, dynamic and surge pricing, multi-stop trips, digital payments, and automated driver payouts. We also engineer the high-performance backend infrastructure required for peak demand, including geospatial indexing, event-driven trip management, message queues, driver verification, safety workflows, and real-time trip state synchronization.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Rider, driver, and admin app development across iOS, Android, and web</li><li>Real-time GPS tracking, geolocation-based matching, and dispatch optimisation engines</li><li>Dynamic and surge pricing models with fare calculation and multi-stop trip support</li><li>Driver onboarding, verification, ratings, and safety workflow systems</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"796\" src=\"/assets/images/industry-details/travel-and-hospitality/cab-booking.webp\" alt=\"Cab Booking App Development\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-2\" aria-expanded=\"false\" aria-controls=\"wwd-panel-2\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/travel-and-hospitality/food-delivery-app.svg\" alt=\"\" width=\"32\" height=\"32\">Food Delivery App and Platform Development</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-2\" role=\"region\" aria-labelledby=\"wwd-btn-2\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We build end-to-end food and on-demand delivery platforms with customer apps, restaurant dashboards, and delivery partner applications, following scalable architectural patterns used by platforms such as Swiggy, Zomato, and Uber Eats. Our solutions cover restaurant onboarding, menu management, cart and checkout, real-time order tracking, delivery partner dispatch, live ETA, ratings, reviews, and loyalty programs. We also address complex delivery operations such as multi-restaurant carts, scheduled orders, peak-hour traffic, inventory synchronization, and partner allocation based on distance, availability, and delivery time.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Customer ordering apps, restaurant/vendor dashboards, and delivery partner apps</li><li>Real-time order tracking, live ETA, and delivery partner dispatch and allocation</li><li>Restaurant onboarding, menu and catalogue management, and inventory synchronization</li><li>Multi-restaurant cart, scheduled ordering, and subscription/membership features</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/travel-and-hospitality/food-delivery-app.webp\" alt=\"Food Delivery App and Platform Development\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-3\" aria-expanded=\"false\" aria-controls=\"wwd-panel-3\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/travel-and-hospitality/restaurant-management-software.svg\" alt=\"\" width=\"32\" height=\"32\">Restaurant Management Software and POS Platforms</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-3\" role=\"region\" aria-labelledby=\"wwd-btn-3\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We build integrated restaurant management platforms that connect POS, kitchen display systems, table and reservation management, inventory, suppliers, and online ordering into a unified operational ecosystem. Our solutions help restaurants manage dine-in, takeaway, and delivery operations while connecting front-of-house and back-of-house workflows. For multi-location restaurant groups, we integrate with third-party delivery marketplaces, payment processors, and loyalty platforms to provide centralized visibility into sales, inventory, and outlet performance.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Cloud-based POS systems with integrated kitchen display and order routing</li><li>Table reservation, waitlist, and dine-in management systems</li><li>Inventory, supplier, and multi-location stock management</li><li>Online ordering integration with delivery marketplace and payment gateway connectivity</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/travel-and-hospitality/restaurant-management-software.webp\" alt=\"Restaurant Management Software and POS Platforms\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-4\" aria-expanded=\"false\" aria-controls=\"wwd-panel-4\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/travel-and-hospitality/hotel-property-management-systems.svg\" alt=\"\" width=\"32\" height=\"32\">Hotel and Property Management Systems</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-4\" role=\"region\" aria-labelledby=\"wwd-btn-4\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We build end-to-end hotel management software that brings reservations, front-desk operations, housekeeping, billing, maintenance, and channel management together in one platform. Our solutions support hotels, resorts, motels, lodges, and guest houses with booking engines across direct web, mobile, and OTA channels. Integrations with platforms such as Booking.com, Expedia, and Airbnb synchronize rates and availability in real time, helping prevent overbooking and maintain rate consistency while improving the guest experience.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Hotel booking and reservation engines with real-time availability and rate management</li><li>PMS development integrating front-desk, housekeeping, billing, and maintenance workflows</li><li>Channel manager integration with OTAs (Booking.com, Expedia, Airbnb) to prevent overbooking</li><li>Guest CRM and personalization platforms for tailored offers and repeat-stay loyalty</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/travel-and-hospitality/hotel-and-property.webp\" alt=\"Hotel and Property Management Systems\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-5\" aria-expanded=\"false\" aria-controls=\"wwd-panel-5\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/travel-and-hospitality/ai-powered-travel-personalisation.svg\" alt=\"\" width=\"32\" height=\"32\">AI-Powered Travel Personalization and Guest Engagement</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-5\" role=\"region\" aria-labelledby=\"wwd-btn-5\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We build AI-powered recommendation engines, conversational AI, and personalization platforms for travel and hospitality businesses. Our solutions deliver tailored accommodation and itinerary recommendations, dynamic pricing, AI chatbots for booking support and travel updates, automated check-in, and predictive guest services. By analyzing booking history, browsing behaviour, and guest preferences, we help businesses deliver relevant experiences while using demand forecasting and predictive analytics to improve pricing and inventory decisions.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>AI-driven personalized recommendations for accommodation, itineraries, and offers</li><li>Conversational AI and chatbots for booking support, FAQs, and real-time travel updates</li><li>Dynamic and predictive pricing models based on demand, seasonality, and booking patterns</li><li>Automated check-in/check-out workflows and predictive guest service personalization</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/travel-and-hospitality/ai-powered-travel.webp\" alt=\"AI-Powered Travel Personalization and Guest Engagement\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-6\" aria-expanded=\"false\" aria-controls=\"wwd-panel-6\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/travel-and-hospitality/booking-engines.svg\" alt=\"\" width=\"32\" height=\"32\">Booking Engines, Ticketing and Payment Platforms</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-6\" role=\"region\" aria-labelledby=\"wwd-btn-6\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We build secure, high-performance booking and ticketing platforms for flights, rail, buses, events, and accommodation, supporting high transaction volumes and seamless customer journeys. Our solutions provide multi-currency and multi-language capabilities with secure payment options including cards, digital wallets, and regional payment methods. We also explore blockchain-based payment and identity verification solutions that can enable transparent cross-border transactions and tamper-resistant booking records.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>High-concurrency booking and ticketing engines for flights, rail, bus, and events</li><li>Multi-currency, multi-language booking platforms for global and regional markets</li><li>Secure payment gateway integration: cards, digital wallets, and regional payment methods</li><li>Blockchain-based payment and identity verification for transparent, low-cost transactions</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/travel-and-hospitality/booking-engines.webp\" alt=\"Booking Engines, Ticketing and Payment Platforms\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-7\" aria-expanded=\"false\" aria-controls=\"wwd-panel-7\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/travel-and-hospitality/legacy-travel-system-modernisation.svg\" alt=\"\" width=\"32\" height=\"32\">Legacy Travel System Modernization</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-7\" role=\"region\" aria-labelledby=\"wwd-btn-7\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We help travel, hospitality, and mobility businesses modernize legacy reservation systems, PMS platforms, and on-premise booking infrastructure by moving to cloud-native, API-first architectures. Our approach enables integration with modern OTAs, payment providers, and mobile applications while preserving critical booking workflows and business continuity. With 25+ years of enterprise migration experience, we use phased modernization strategies and structured risk management to upgrade mission-critical systems without disrupting live operations, even during peak booking periods.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Cloud migration and re-platforming of legacy reservation and PMS systems</li><li>API-first integration layers connecting modernized systems to OTAs and payment processors</li><li>Microservices re-architecture for ageing monolithic booking platforms</li><li>Phased modernization roadmaps minimizing disruption to live booking operations</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/travel-and-hospitality/legacy-travel-system.webp\" alt=\"Legacy Travel System Modernization\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n    </ul>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "htmlSection",
+      "label": "Challenges We Address in Travel and Hospitality",
+      "html": "<section class=\"section chl\" aria-labelledby=\"chl-title\" data-chl=\"\">\n  <div class=\"chl__pin\">\n  <img width=\"1897\" height=\"917\" class=\"chl__bg\" src=\"/assets/images/industry-details/challenges-bg.webp\" srcset=\"/assets/images/industry-details/challenges-bg-800.webp 800w, /assets/images/industry-details/challenges-bg.webp 1600w\" sizes=\"(max-width: 800px) 100vw, 1600px\" alt=\"\" loading=\"lazy\" decoding=\"async\">\n  <div class=\"wrap\">\n    <h2 id=\"chl-title\">Challenges We Address in Travel and Hospitality</h2>\n  </div>\n  <div class=\"chl__rail\">\n    <ul class=\"chl__track\" aria-label=\"Challenges\" tabindex=\"0\">\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/travel-and-hospitality/challenges/fragmented-booking-journeys.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Fragmented Booking Journeys</h3><ul class=\"chl-card__list\"><li>Disconnected booking, payment, and confirmation flows</li><li>Inconsistent pricing across channels</li><li>High abandonment during checkout</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/travel-and-hospitality/challenges/real-time-operations.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Real-Time Operations</h3><ul class=\"chl-card__list\"><li>Live availability and inventory sync gaps</li><li>Real-time dispatch and ETA accuracy</li><li>Peak-demand surge handling</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/travel-and-hospitality/challenges/guest-rider-personalisation.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Guest and Rider Personalisation</h3><ul class=\"chl-card__list\"><li>Generic, one-size-fits-all experiences</li><li>Limited use of behavioral and preference data</li><li>Weak loyalty and repeat-engagement mechanics</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/travel-and-hospitality/challenges/multi-vendor-complexity.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Multi-Vendor Complexity</h3><ul class=\"chl-card__list\"><li>Hundreds of restaurant or property partners to onboard</li><li>Inconsistent partner-side data quality</li><li>Commission, payout, and settlement complexity</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/travel-and-hospitality/challenges/legacy-pms-reservation-systems.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Legacy PMS and Reservation Systems</h3><ul class=\"chl-card__list\"><li>Ageing property and reservation systems</li><li>Poor integration with OTAs and channel managers</li><li>Manual front-desk and housekeeping workflows</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/travel-and-hospitality/challenges/scalability-under-demand-spikes.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Scalability Under Demand Spikes</h3><ul class=\"chl-card__list\"><li>Seasonal and event-driven traffic surges</li><li>Platform stability during peak booking windows</li><li>Geographic expansion infrastructure gaps</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/travel-and-hospitality/challenges/trust-safety-payments.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Trust, Safety and Payments</h3><ul class=\"chl-card__list\"><li>Secure, multi-method payment processing</li><li>Driver, rider, and guest safety verification</li><li>Fraud and chargeback exposure</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/travel-and-hospitality/challenges/data-predictive-intelligence.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Data and Predictive Intelligence</h3><ul class=\"chl-card__list\"><li>Siloed booking, guest, and operational data</li><li>Limited dynamic pricing capability</li><li>Absence of predictive demand forecasting</li></ul></li>\n    </ul>\n    <div class=\"chl__bar\" aria-hidden=\"true\"><span></span></div>\n  </div>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "htmlSection",
+      "label": "Benefits of Our Travel and Hospitality Technology Services",
+      "html": "<section class=\"section bnf\" aria-labelledby=\"bnf-title\">\n  <div class=\"wrap bnf__in\">\n    <div class=\"bnf__intro\">\n      <h2 id=\"bnf-title\">Benefits of Our Travel and Hospitality Technology Services</h2>\n      <p>By combining travel and hospitality domain expertise with proven real-time, high-concurrency engineering capability, we help travel operators, hotels, restaurants, and mobility platforms build digital experiences that convert, retain, and scale.</p>\n      <img width=\"660\" height=\"600\" class=\"bnf__img\" src=\"/assets/images/industry-details/travel-and-hospitality/benefits.webp\" alt=\"Travel and Hospitality software solutions\" loading=\"lazy\" decoding=\"async\">\n    </div>\n    <ol class=\"bnf__list\">\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"22 7 13.5 15.5 8.5 10.5 2 17\"></polyline><polyline points=\"16 7 22 7 22 13\"></polyline></svg></span><h3>Higher Booking Conversion and Reduced Abandonment</h3><p>Our streamlined booking engines, transparent pricing, and fast, secure checkout flows reduce the friction that causes booking abandonment — helping travel and hospitality businesses convert more of the demand they attract.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z\"></path></svg></span><h3>Real-Time Operational Reliability</h3><p>Our real-time tracking, dispatch, and inventory synchronization systems give travel, mobility, and hospitality operators the live operational accuracy that modern customers expect — accurate ETAs, live availability, and synchronized order and booking status across every channel.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2\"></path><circle cx=\"9\" cy=\"7\" r=\"4\"></circle><path d=\"M22 21v-2a4 4 0 0 0-3-3.87\"></path><path d=\"M16 3.13a4 4 0 0 1 0 7.75\"></path></svg></span><h3>Stronger Guest and Customer Personalization</h3><p>Through AI-driven recommendation engines and behavioral data analysis, we help travel and hospitality businesses move beyond generic offers to the kind of individually relevant experience that drives repeat bookings and brand loyalty.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z\"></path></svg></span><h3>Scalable Platforms for Demand Spikes</h3><p>Our cloud-native, microservices-based architectures are built to absorb seasonal surges, event-driven demand, and rapid geographic expansion without the performance degradation that legacy monolithic booking platforms suffer under peak load.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m12 14 4-4\"></path><path d=\"M3.34 19a10 10 0 1 1 17.32 0\"></path></svg></span><h3>Reduced Operational Complexity Across Multi-Vendor Networks</h3><p>Our platform architecture for multi-vendor marketplaces — restaurants, properties, drivers — handles partner onboarding, commission and payout logic, and data quality at scale, reducing the manual operational burden of running a multi-sided marketplace.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\"></path><path d=\"m9 12 2 2 4-4\"></path></svg></span><h3>Stronger Trust, Safety, and Payment Security</h3><p>Our ISO 27001-certified security practices and secure payment architecture protect guest, rider, and payment data at every layer — building the trust that travel, mobility, and hospitality platforms depend on for sustained customer adoption.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 3v18h18\"></path><path d=\"M18 17V9\"></path><path d=\"M13 17V5\"></path><path d=\"M8 17v-3\"></path></svg></span><h3>Data-Driven Pricing and Demand Forecasting</h3><p>Our predictive analytics and dynamic pricing models give travel and hospitality operators the intelligence to price competitively, forecast demand accurately, and optimize inventory and fleet allocation in real time.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8\"></path><path d=\"M12 18V6\"></path></svg></span><h3>Lower Total Cost of Platform Ownership</h3><p>By modernizing legacy reservation and PMS systems and consolidating fragmented operational tools into unified platforms, we help travel and hospitality businesses reduce ongoing technology maintenance costs while improving platform capability.</p></li>\n    </ol>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "sharedSection",
+      "section": "caseStudyStories",
+      "blockName": "Case studies slider"
+    },
+    {
+      "blockType": "sharedSection",
+      "section": "testimonials",
+      "blockName": "Testimonials"
+    },
+    {
+      "blockType": "htmlSection",
+      "label": "Why Choose Us For Travel and Hospitality Software Development",
+      "html": "<section class=\"invest\" aria-label=\"Why Choose Us For Travel and Hospitality Software Development\">\n  <div class=\"invest__in\">\n    <div class=\"sec-head\">\n      <h2>Why Choose Us For Travel and Hospitality Software Development</h2>\n      <p class=\"sec-head__p\" style=\"width:1222px\">We are a trusted travel and hospitality software development company with expertise in booking platforms, mobility solutions, AI personalization, IoT, and real-time applications. Our secure, scalable, and certified engineering capabilities help travel and hospitality businesses enhance guest experiences, streamline operations, and drive digital growth.</p>\n    </div>\n    <div class=\"invest__cards\" data-carousel=\"invest\">\n      <button class=\"invest__arrow invest__arrow--prev\" type=\"button\" aria-label=\"Previous cards\" disabled=\"\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M19 12H5M11 6l-6 6 6 6\"></path></svg></button>\n      <div class=\"invest__viewport\" tabindex=\"0\" role=\"region\" aria-label=\"Cards\">\n        <div class=\"invest__track\">\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16\"></path><rect width=\"20\" height=\"14\" x=\"2\" y=\"6\" rx=\"2\"></rect></svg><h3>Proven Transport and Mobility Delivery Experience</h3></div><p>Our work for FirstGroup — one of the world’s largest transport operators, delivered through South Western Railway — spans five years of sustained delivery. This is not a single project reference; it reflects the kind of long-term, trust-based partnership that complex transport and mobility platforms require. Alongside this, we have built distributed rail and bus support systems and shared mobility rental platforms for vehicle manufacturers.</p></div></div>\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z\"></path></svg><h3>Real-Time, High-Concurrency Engineering Capability</h3></div><p>Cab booking, food delivery, and ride-hailing platforms demand architecture that handles real-time GPS tracking, geospatial matching, and high-concurrency order and trip state management — the same engineering discipline we apply across our travel, mobility, and hospitality work, drawing on proven patterns from category-leading real-time marketplace platforms.</p></div></div>\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z\"></path><path d=\"m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65\"></path><path d=\"m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65\"></path></svg><h3>Full-Spectrum Travel and Hospitality Technology Capability</h3></div><p>From hotel booking engines and PMS integration to cab-booking apps, food-delivery platforms, and AI personalization — we bring the complete technology stack needed to build and scale travel, hospitality, and mobility platforms under one roof, reducing vendor complexity and improving delivery accountability.</p></div></div>\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\"></path><path d=\"m9 12 2 2 4-4\"></path></svg><h3>Security and Compliance for Payment and Guest Data</h3></div><p>Travel, hospitality, and mobility platforms handle sensitive payment data, location data, and guest information at scale. Our ISO 27001-certified security practices and CMMI Level 3 delivery processes ensure every platform is built to protect this data while maintaining the speed and usability the category demands.</p></div></div>\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\"></path><path d=\"M20 3v4\"></path><path d=\"M22 5h-4\"></path><path d=\"M4 17v2\"></path><path d=\"M5 18H3\"></path></svg><h3>AI and Emerging Technology Depth</h3></div><p>Our capability spans AI-driven personalization and dynamic pricing, blockchain-based payment and identity verification, IoT-based fleet telemetry, and AR/VR immersive experiences — giving travel and hospitality businesses access to the emerging technologies reshaping guest and rider expectations.</p></div></div>\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z\"></path><path d=\"m9 12 2 2 4-4\"></path></svg><h3>Certified Delivery Quality at Scale</h3></div><p>Our CMMI Level 3 certification reflects a mature, repeatable delivery model with defined processes for quality management, risk management, and continuous improvement — essential for travel and hospitality platforms where system reliability directly impacts revenue, guest trust, and operational continuity.</p></div></div>\n        </div>\n      </div>\n      <button class=\"invest__arrow invest__arrow--next\" type=\"button\" aria-label=\"Next cards\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"></path></svg></button>\n    </div>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently asked questions",
+      "style": "section",
+      "intro": "Find quick answers to the most commonly asked questions about our services, process, pricing, timelines, and support.",
+      "showSalesContact": true,
+      "blockName": "FAQs (8)",
+      "items": [
+        {
+          "question": "What is travel and hospitality software development?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Travel and hospitality software development is the process of designing, building, and maintaining digital platforms that streamline travel planning, bookings, guest experiences, and hospitality operations. It includes online booking engines, hotel and property management systems, airline and tour operator platforms, travel marketplaces, customer loyalty programs, mobile travel apps, payment integrations, and AI-powered personalization. These solutions help travel and hospitality businesses improve operational efficiency, enhance guest experiences, optimize revenue, and deliver seamless digital journeys across web and mobile channels.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "What travel and hospitality technology solutions do you provide?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "We deliver end-to-end travel, hospitality, and mobility solutions including cab-booking and ride-hailing app development, food-delivery platform development, restaurant management software, hotel and property management systems, AI-powered guest personalization, booking and ticketing engines, and legacy travel system modernization. We serve hotels, travel agencies, transport operators, restaurant chains, and on-demand mobility platforms.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "Can you build a cab-booking app similar to Uber or a food-delivery app similar to Swiggy or Zomato?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Yes. We build cab-booking and food-delivery platforms using the same real-time, microservices-based architecture patterns that power category-leading platforms — covering rider/customer apps, driver/delivery partner apps, restaurant or fleet dashboards, real-time GPS tracking, dynamic pricing, and payment processing. Our team understands the operational complexity of matching supply to demand in real time at scale.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "How do you approach hotel booking engine and PMS integration?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "We build hotel booking and reservation engines that integrate with Property Management Systems to synchronize front-desk, housekeeping, billing, and inventory in real time. Our channel manager integrations connect with major OTAs including Booking.com, Expedia, and Airbnb to keep rates and availability synchronized across every booking channel, preventing overbooking and rate parity issues.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "Do you build restaurant management software and POS systems?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Yes. We build cloud-based restaurant POS systems with integrated kitchen display systems, table and reservation management, inventory and supplier management, and online ordering integration. Our restaurant technology connects front-of-house, back-of-house, and digital ordering channels into a single operational view, including integration with third-party delivery marketplaces.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "How do you use AI in travel and hospitality platforms?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Our AI capabilities for travel and hospitality include personalized recommendation engines for accommodation and itineraries, conversational AI chatbots for booking support and real-time updates, dynamic and predictive pricing models, demand forecasting, and automated check-in workflows. These capabilities are designed to improve conversion, guest satisfaction, and operational efficiency simultaneously.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "Can you modernize our legacy reservation or PMS system without disrupting live bookings?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Yes. Our modernization methodology is designed to minimize disruption to live booking operations. We apply phased migration strategies rehosting, replatforming, or refactoring depending on system complexity to transition legacy reservation and PMS platforms to modern, cloud-native architecture without risking booking downtime during peak trading periods.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "What is your experience with transport and mobility operators specifically?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "We have a five-year delivery relationship with South Western Railway, part of the FirstGroup transport network, alongside experience building distributed rail and bus support systems and shared mobility rental platforms for vehicle manufacturers. This gives us direct, sustained exposure to the operational and technical demands of large-scale transport and mobility businesses.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "blockType": "contactBand",
+      "heading": "Let’s Solve Your Next Technology Challenge",
+      "text": "Talk to our expert and get clarity on your roadmap—no pressure, no obligations.",
+      "thanksText": "Our Australian team will reply within 4 business hours (AEST).",
+      "blockName": "Contact form: Let’s Solve Your Next Technology Challenge"
+    }
+  ]
+}

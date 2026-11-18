@@ -1,0 +1,380 @@
+{
+  "title": "Energy and Utilities Industry Solutions",
+  "path": "/industries/energy-and-utilities",
+  "template": "industryDetail",
+  "_status": "published",
+  "searchSection": "Company",
+  "searchDescription": "Develop energy and utilities software with smart grid, asset management, IoT monitoring and predictive maintenance solutions for improved operational efficiency.",
+  "meta": {
+    "title": "Energy and Utilities Software Development Company | Q3 Technologies",
+    "description": "Develop energy and utilities software with smart grid, asset management, IoT monitoring and predictive maintenance solutions for improved operational efficiency."
+  },
+  "seoExtras": {
+    "globalUrl": "https://www.q3tech.com/energy-and-utilities/"
+  },
+  "layout": [
+    {
+      "blockType": "htmlSection",
+      "label": "Energy and Utilities Software Development",
+      "html": "<section class=\"ind-hero\" aria-labelledby=\"ind-hero-title\">\n  <div class=\"ind-hero__in\">\n    <nav class=\"breadcrumb\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/\">Home</a></li><li><a href=\"/industries\">Industries</a></li><li aria-current=\"page\">Energy and Utilities</li></ol></nav>\n    <div class=\"ind-hero__top\">\n      <h1 id=\"ind-hero-title\">Energy and Utilities<br>Software Development</h1>\n      <div class=\"ind-hero__side\">\n        <p>As a globally trusted energy and utilities software development company, we empower utilities, energy producers, and grid operators with AI-powered, scalable, and integration-ready digital energy solutions engineered for the future of sustainable and connected energy infrastructure.</p>\n        <div class=\"ind-hero__btns\">\n      <a class=\"ind-btn ind-btn--primary\" href=\"/contact\">Talk to Our Experts <svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M6 14L14 6M7 6h7v7\"></path></svg></a>\n      <a class=\"ind-btn ind-btn--ghost\" href=\"/case-studies\">View case studies <svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M6 14L14 6M7 6h7v7\"></path></svg></a>\n    </div>\n      </div>\n    </div>\n    <figure class=\"ind-hero__media\"><img src=\"/assets/images/industry-details/energy-and-utilities/hero.webp\" srcset=\"/assets/images/industry-details/energy-and-utilities/hero-800.webp 800w, /assets/images/industry-details/energy-and-utilities/hero.webp 1344w\" sizes=\"100vw\" alt=\"Energy and Utilities Software Development\" width=\"1344\" height=\"600\" fetchpriority=\"high\"></figure>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "sharedSection",
+      "section": "brands",
+      "blockName": "Client logos"
+    },
+    {
+      "blockType": "htmlSection",
+      "label": "What We Do",
+      "html": "<section class=\"section alt wwd\" aria-labelledby=\"wwd-title\">\n  <div class=\"wrap\">\n    <div class=\"wwd-head\">\n      <h2 id=\"wwd-title\">What We Do</h2>\n      <p>Our AI-powered energy and utilities software solutions across workflow optimization, digital twin implementation, BESS development, cloud-based SCADA, carbon emission tracking, customer engagement, field force automation, damage assessment, and cybersecurity enable energy organizations to modernize operations, strengthen resilience, and accelerate their sustainability journeys.</p>\n    </div>\n    <ul class=\"wwd-list\" data-wwd=\"\">\n      <li class=\"wwd-card is-active\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-1\" aria-expanded=\"true\" aria-controls=\"wwd-panel-1\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/energy-and-utilities/energy-utility-workflow-optimization.svg\" alt=\"\" width=\"32\" height=\"32\">Energy Utility Workflow Optimization</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-1\" role=\"region\" aria-labelledby=\"wwd-btn-1\">\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We help energy and utility organizations streamline complex operational processes through intelligent workflow automation, digital approvals, asset tracking, and enterprise integrations. Leveraging our expertise in energy software development, we build workflow solutions that improve operational efficiency, reduce manual effort, accelerate issue resolution, and enhance collaboration across generation, transmission, and distribution environments.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Intelligent workflow automation for operational approvals and process management</li><li>Enterprise system integrations connecting ERP, CMMS, GIS, and asset management platforms</li><li>Digital work order management and real-time task tracking across operational teams</li><li>Performance dashboards and operational KPI reporting for generation and distribution environments</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/energy-and-utilities/energy-utility-workflow-optimization.webp\" alt=\"Energy Utility Workflow Optimization\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-2\" aria-expanded=\"false\" aria-controls=\"wwd-panel-2\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/energy-and-utilities/battery-energy-storage.svg\" alt=\"\" width=\"32\" height=\"32\">Battery Energy Storage System Development</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-2\" role=\"region\" aria-labelledby=\"wwd-btn-2\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We develop intelligent Battery Energy Storage System (BESS) platforms that support real-time monitoring, energy optimization, predictive analytics, and grid balancing. As part of our custom energy software development capabilities, we build scalable solutions that help utilities maximize storage efficiency, improve renewable energy utilization, and strengthen grid reliability.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Real-time BESS monitoring, state-of-charge tracking, and performance optimization</li><li>Grid balancing and demand response integration for renewable energy management</li><li>Predictive analytics for battery degradation, lifespan optimization, and maintenance scheduling</li><li>Scalable BESS platform architectures supporting multi-site energy storage deployments</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/energy-and-utilities/battery-energy-storage-system-development.webp\" alt=\"Battery Energy Storage System Development\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-3\" aria-expanded=\"false\" aria-controls=\"wwd-panel-3\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/energy-and-utilities/cloud-based-solutions.svg\" alt=\"\" width=\"32\" height=\"32\">Cloud-Based SCADA Solutions</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-3\" role=\"region\" aria-labelledby=\"wwd-btn-3\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We modernize legacy SCADA environments by building secure, scalable, and cloud-enabled monitoring platforms that provide real-time visibility into distributed operations. Through our utilities software development expertise, we enable remote asset monitoring, centralized control, automated alerts, and operational intelligence that improve reliability across utility networks and industrial operations.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Cloud-native SCADA platform development and legacy system migration</li><li>Real-time remote monitoring, centralized control, and automated alerting capabilities</li><li>Secure OT and IT network integration with role-based access control frameworks</li><li>Operational intelligence dashboards and historical data analytics for utility networks</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/energy-and-utilities/cloud-based-scada.webp\" alt=\"Cloud-Based SCADA Solutions\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-4\" aria-expanded=\"false\" aria-controls=\"wwd-panel-4\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/energy-and-utilities/carbon-emission-tracking.svg\" alt=\"\" width=\"32\" height=\"32\">Carbon Emission Tracking for Sustainable Energy</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-4\" role=\"region\" aria-labelledby=\"wwd-btn-4\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We build intelligent sustainability platforms that enable organizations to monitor, measure, and report carbon emissions across operations and energy assets. Leveraging energy management software development expertise, we deliver analytics-driven solutions that support ESG initiatives, regulatory compliance, decarbonization goals, and data-driven sustainability decision-making.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Automated carbon emission data collection, calculation, and regulatory reporting</li><li>ESG performance dashboards with real-time sustainability KPI tracking</li><li>Scope 1, 2, and 3 emissions monitoring and decarbonization roadmap analytics</li><li>Integration with energy metering systems, ERP platforms, and sustainability reporting frameworks</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/energy-and-utilities/carbon-emission-tracking-sustainable-energy.webp\" alt=\"Carbon Emission Tracking for Sustainable Energy\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-5\" aria-expanded=\"false\" aria-controls=\"wwd-panel-5\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/energy-and-utilities/customer-engagement-solutions-for.svg\" alt=\"\" width=\"32\" height=\"32\">Customer Engagement Solutions for Energy Providers</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-5\" role=\"region\" aria-labelledby=\"wwd-btn-5\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We develop digital customer engagement platforms that improve communication, self-service capabilities, billing transparency, and service responsiveness for utility providers. As an experienced utilities software development company, we build customer portals, mobile applications, and omnichannel engagement solutions that enhance customer satisfaction and operational efficiency.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Self-service customer portals for billing, usage analytics, and service request management</li><li>Mobile applications enabling real-time outage notifications, account access, and energy monitoring</li><li>Omnichannel communication platforms integrating web, mobile, SMS, and email channels</li><li>AI-powered chatbot and virtual assistant integration for automated customer support</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/energy-and-utilities/customer-engagement-solutions.webp\" alt=\"Customer Engagement Solutions for Energy Providers\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-6\" aria-expanded=\"false\" aria-controls=\"wwd-panel-6\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/energy-and-utilities/mobile-field-force-automation.svg\" alt=\"\" width=\"32\" height=\"32\">Mobile Field Force Automation</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-6\" role=\"region\" aria-labelledby=\"wwd-btn-6\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We build enterprise mobility solutions that empower field teams with real-time access to inspections, maintenance schedules, work orders, and asset information from any location. As part of our energy and utilities software development services, these mobile applications improve workforce productivity, accelerate issue resolution, and streamline field operations across geographically distributed environments.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Mobile work order management and field inspection applications for iOS and Android</li><li>Real-time asset information access, condition reporting, and maintenance history logging</li><li>GPS-enabled field team tracking, route optimization, and job dispatch management</li><li>Offline capability and synchronization for field operations in low-connectivity environments</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/energy-and-utilities/mobile-field-force.webp\" alt=\"Mobile Field Force Automation\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-7\" aria-expanded=\"false\" aria-controls=\"wwd-panel-7\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/energy-and-utilities/damage-assessment-recovery.svg\" alt=\"\" width=\"32\" height=\"32\">Damage Assessment and Recovery for Utility Assets</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-7\" role=\"region\" aria-labelledby=\"wwd-btn-7\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We develop AI-enabled platforms that help utility organizations assess infrastructure damage, prioritize restoration activities, and coordinate recovery efforts during outages and emergencies. By integrating geospatial intelligence, analytics, and utility asset management capabilities, we enable faster response times, improved asset visibility, and more efficient recovery operations.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>AI-powered damage assessment and infrastructure risk scoring for utility assets</li><li>Geospatial intelligence and GIS integration for outage mapping and restoration prioritization</li><li>Incident coordination platforms for cross-team emergency response and recovery management</li><li>Real-time outage impact analytics and stakeholder communication tools</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/energy-and-utilities/damage-assessment.webp\" alt=\"Damage Assessment and Recovery for Utility Assets\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-8\" aria-expanded=\"false\" aria-controls=\"wwd-panel-8\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/energy-and-utilities/ai-powered-cybersecurity.svg\" alt=\"\" width=\"32\" height=\"32\">AI-Powered Cybersecurity for Energy Infrastructure</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-8\" role=\"region\" aria-labelledby=\"wwd-btn-8\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We deliver AI-driven cybersecurity solutions that protect critical energy infrastructure from evolving cyber threats through continuous monitoring, anomaly detection, predictive analytics, and automated incident response. Supporting modern digital utility platforms, our solutions strengthen operational resilience, improve threat visibility, and help safeguard mission-critical energy systems.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Continuous OT and IT network monitoring with AI-powered anomaly and threat detection</li><li>Automated incident response and threat containment for energy control systems</li><li>Compliance frameworks aligned with NERC CIP, IEC 62443, and NIST cybersecurity standards</li><li>Security operations dashboards and threat intelligence reporting for energy infrastructure teams</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/energy-and-utilities/ai-powered-cybersecurity.webp\" alt=\"AI-Powered Cybersecurity for Energy Infrastructure\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n    </ul>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "htmlSection",
+      "label": "Challenges We Address in Energy and Utilities",
+      "html": "<section class=\"section chl\" aria-labelledby=\"chl-title\" data-chl=\"\">\n  <div class=\"chl__pin\">\n  <img width=\"1897\" height=\"917\" class=\"chl__bg\" src=\"/assets/images/industry-details/challenges-bg.webp\" srcset=\"/assets/images/industry-details/challenges-bg-800.webp 800w, /assets/images/industry-details/challenges-bg.webp 1600w\" sizes=\"(max-width: 800px) 100vw, 1600px\" alt=\"\" loading=\"lazy\" decoding=\"async\">\n  <div class=\"wrap\">\n    <h2 id=\"chl-title\">Challenges We Address in Energy and Utilities</h2>\n  </div>\n  <div class=\"chl__rail\">\n    <ul class=\"chl__track\" aria-label=\"Challenges\" tabindex=\"0\">\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/energy-and-utilities/challenges/modernizing-aging-grid-infrastructure.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Modernizing Aging Grid Infrastructure</h3><ul class=\"chl-card__list\"><li>Legacy SCADA and control systems</li><li>Costly and disruptive migration risks</li><li>Continuity of mission-critical operations</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/energy-and-utilities/challenges/managing-distributed-energy-resources.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Managing Distributed Energy Resources</h3><ul class=\"chl-card__list\"><li>Renewable integration complexity</li><li>Grid balancing and stability demands</li><li>Battery storage optimization challenges</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/energy-and-utilities/challenges/reducing-unplanned-asset-downtime.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Reducing Unplanned Asset Downtime</h3><ul class=\"chl-card__list\"><li>Reactive maintenance practices</li><li>Limited IoT and sensor adoption</li><li>High infrastructure repair and replacement costs</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/energy-and-utilities/challenges/ensuring-cybersecurity-critical-infrastructure.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Ensuring Cybersecurity of Critical Infrastructure</h3><ul class=\"chl-card__list\"><li>Evolving OT and IT threat landscapes</li><li>Compliance with NERC CIP and IEC 62443</li><li>Incident detection and response gaps</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/energy-and-utilities/challenges/meeting-esg-decarbonization-commitments.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Meeting ESG and Decarbonization Commitments</h3><ul class=\"chl-card__list\"><li>Carbon reporting accuracy demands</li><li>Regulatory and ESG disclosure requirements</li><li>Sustainability data fragmentation</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/energy-and-utilities/challenges/improving-field-workforce-productivity.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Improving Field Workforce Productivity</h3><ul class=\"chl-card__list\"><li>Manual and paper-based field processes</li><li>Disconnected work order management</li><li>Limited real-time field data visibility</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/energy-and-utilities/challenges/delivering-superior-customer-experiences.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Delivering Superior Customer Experiences</h3><ul class=\"chl-card__list\"><li>Poor billing transparency and self-service</li><li>Fragmented customer communication channels</li><li>Rising customer expectations for digital access</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/energy-and-utilities/challenges/scaling-digital-operations-across-geographies.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Scaling Digital Operations Across Geographies</h3><ul class=\"chl-card__list\"><li>Distributed asset management complexity</li><li>Remote monitoring and control limitations</li><li>Data silos across operational environments</li></ul></li>\n    </ul>\n    <div class=\"chl__bar\" aria-hidden=\"true\"><span></span></div>\n  </div>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "htmlSection",
+      "label": "Benefits of Our Energy and Utilities Software Services",
+      "html": "<section class=\"section bnf\" aria-labelledby=\"bnf-title\">\n  <div class=\"wrap bnf__in\">\n    <div class=\"bnf__intro\">\n      <h2 id=\"bnf-title\">Benefits of Our Energy and Utilities Software Services</h2>\n      <p>We help power generators, grid operators, distribution utilities, renewable energy organizations, and energy technology companies accelerate digital transformation while improving operational performance, sustainability outcomes, and customer satisfaction.</p>\n      <img width=\"672\" height=\"600\" class=\"bnf__img\" src=\"/assets/images/industry-details/energy-and-utilities/benefits.webp\" alt=\"Energy and Utilities software solutions\" loading=\"lazy\" decoding=\"async\">\n    </div>\n    <ol class=\"bnf__list\">\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m12 14 4-4\"></path><path d=\"M3.34 19a10 10 0 1 1 17.32 0\"></path></svg></span><h3>Improved Operational Efficiency Across Energy Networks</h3><p>By automating complex workflows, modernizing SCADA environments, and deploying real-time digital twin platforms, we help energy and utility organizations eliminate manual inefficiencies, reduce operational overhead, and achieve measurable improvements in asset utilization and network reliability.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z\"></path></svg></span><h3>Reduced Infrastructure Downtime and Maintenance Costs</h3><p>Our predictive maintenance platforms, digital twin simulations, and AI-powered monitoring capabilities enable proactive asset management that reduces unplanned infrastructure failures, minimizes emergency repair costs, and extends the operational lifespan of critical energy assets.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\"></path><path d=\"m9 12 2 2 4-4\"></path></svg></span><h3>Stronger Grid Resilience and Energy Security</h3><p>Through intelligent BESS development, cloud-based SCADA modernization, and AI-powered cybersecurity solutions, we help utilities strengthen grid resilience, improve demand response capabilities, and protect mission-critical energy infrastructure from both operational and cyber threats.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z\"></path><path d=\"M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12\"></path></svg></span><h3>Accelerated ESG and Decarbonization Progress</h3><p>Our carbon emission tracking platforms and sustainability analytics solutions provide energy organizations with the data visibility, regulatory reporting capabilities, and performance benchmarking tools required to meet ESG commitments, reduce carbon footprints, and demonstrate measurable decarbonization progress to stakeholders and regulators.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m12 14 4-4\"></path><path d=\"M3.34 19a10 10 0 1 1 17.32 0\"></path></svg></span><h3>Enhanced Field Workforce Productivity</h3><p>Mobile field force automation platforms equipped with real-time work order management, asset information access, and GPS-enabled dispatch capabilities empower field teams to resolve issues faster, reduce travel inefficiencies, and maintain accurate asset records across geographically distributed operational environments.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16\"></path><rect width=\"20\" height=\"14\" x=\"2\" y=\"6\" rx=\"2\"></rect></svg></span><h3>Superior Customer Experience and Satisfaction</h3><p>Our digital customer engagement platforms provide utility customers with transparent billing, real-time usage insights, self-service capabilities, and proactive outage communications — improving satisfaction scores, reducing inbound service call volumes, and strengthening customer loyalty for energy and utility providers.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"m4.93 4.93 4.24 4.24\"></path><path d=\"m14.83 9.17 4.24-4.24\"></path><path d=\"m14.83 14.83 4.24 4.24\"></path><path d=\"m9.17 14.83-4.24 4.24\"></path><circle cx=\"12\" cy=\"12\" r=\"4\"></circle></svg></span><h3>Faster Emergency Response and Asset Recovery</h3><p>AI-powered damage assessment and geospatial recovery platforms enable utility organizations to identify affected infrastructure, coordinate restoration teams, and prioritize recovery activities more effectively during outages and emergency events — minimizing downtime impact and improving service restoration speed.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z\"></path></svg></span><h3>Scalable and Future-Ready Energy Technology Infrastructure</h3><p>Our cloud-native energy platforms are designed to accommodate growing distributed energy resource portfolios, expanding renewable generation capacity, and evolving grid management requirements — providing the scalable, secure, and adaptable technology foundation that modern energy organizations require.</p></li>\n    </ol>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "sharedSection",
+      "section": "caseStudyStories",
+      "blockName": "Case studies slider"
+    },
+    {
+      "blockType": "sharedSection",
+      "section": "testimonials",
+      "blockName": "Testimonials"
+    },
+    {
+      "blockType": "htmlSection",
+      "label": "Why Choose Us as Your Energy and Utilities Software Development Company",
+      "html": "<section class=\"invest\" aria-label=\"Why Choose Us as Your Energy and Utilities Software Development Company\">\n  <div class=\"invest__in\">\n    <div class=\"sec-head\">\n      <h2>Why Choose Us as Your Energy and Utilities Software Development Company?</h2>\n      <p class=\"sec-head__p\" style=\"width:1222px\">We are a trusted energy and utilities software development company with expertise in AI, IoT, smart grids, SCADA, predictive analytics, and cloud technologies. Our secure, compliance-ready engineering capabilities help energy organizations modernize operations, improve grid resilience, and build scalable digital solutions across the energy value chain.</p>\n    </div>\n    <div class=\"invest__cards\" data-carousel=\"invest\">\n      <button class=\"invest__arrow invest__arrow--prev\" type=\"button\" aria-label=\"Previous cards\" disabled=\"\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M19 12H5M11 6l-6 6 6 6\"></path></svg></button>\n      <div class=\"invest__viewport\" tabindex=\"0\" role=\"region\" aria-label=\"Cards\">\n        <div class=\"invest__track\">\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16\"></path><rect width=\"20\" height=\"14\" x=\"2\" y=\"6\" rx=\"2\"></rect></svg><h3>Deep Energy and Utilities Domain Expertise</h3></div><p>Proven delivery experience across power generation, electricity transmission and distribution, renewable energy, water utilities, oil and gas, and energy technology organizations spanning SCADA modernization, digital twin engineering, predictive asset management, grid resilience, and customer engagement platform development. Our teams understand the regulatory frameworks, safety standards, and operational complexity unique to the energy and utilities sector.</p></div></div>\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\"></path><path d=\"M20 3v4\"></path><path d=\"M22 5h-4\"></path><path d=\"M4 17v2\"></path><path d=\"M5 18H3\"></path></svg><h3>AI-Driven Energy Engineering</h3></div><p>Strong capabilities in machine learning, IoT sensor integration, geospatial analytics, real-time data processing, and AI-powered cybersecurity that enable energy and utility organizations to build smarter grids, automate complex operations, and deliver superior service reliability at scale.</p></div></div>\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\"></path><path d=\"m9 12 2 2 4-4\"></path></svg><h3>Compliance-Ready and Security-First Engineering</h3></div><p>Energy and utilities software solutions we build are aligned with NERC CIP, IEC 62443, ISO 27001, and relevant regional regulatory frameworks — ensuring that operational technology and information technology platforms meet the stringent security, compliance, and functional safety standards demanded by critical infrastructure environments. We hold ISO 27001 certification and CMMI Level 3 process maturity, providing clients with independently verified assurance of our engineering and security practices.</p></div></div>\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"8\" r=\"6\"></circle><path d=\"M15.477 12.89 17 22l-5-3-5 3 1.523-9.11\"></path></svg><h3>Strategic Partnerships with Leading Technology Providers</h3></div><p>Verified partnerships with Microsoft, AWS, Google Cloud, and other leading technology providers enable access to best-in-class cloud, analytics, AI, and industrial IoT platforms for delivering scalable and future-ready energy and utilities software solutions.</p></div></div>\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z\"></path><path d=\"m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65\"></path><path d=\"m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65\"></path></svg><h3>End-to-End Engineering Capabilities</h3></div><p>From strategy and architecture through to development, integration, quality assurance, cloud operations, and managed support, we provide a single engineering partner for building, scaling, and optimizing digital energy ecosystems across the full energy value chain — from generation and transmission through to distribution, retail, and sustainability reporting.</p></div></div>\n        </div>\n      </div>\n      <button class=\"invest__arrow invest__arrow--next\" type=\"button\" aria-label=\"Next cards\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"></path></svg></button>\n    </div>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently asked questions",
+      "style": "section",
+      "intro": "Find quick answers to the most commonly asked questions about our services, process, pricing, timelines, and support.",
+      "showSalesContact": true,
+      "blockName": "FAQs (9)",
+      "items": [
+        {
+          "question": "What is energy software development, and how does it work?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Energy software development involves designing, engineering, and deploying digital platforms that automate, optimize, and manage operations across the energy and utilities value chain. It encompasses SCADA modernization, digital twin implementation, predictive asset maintenance, battery energy storage system management, carbon emission tracking, customer engagement platforms, field force automation, and AI-powered cybersecurity. Engineering teams work across cloud infrastructure, IoT integration, operational technology environments, and AI model development pipelines to deliver solutions that meet the reliability, security, and regulatory standards of the energy and utilities industry.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "What types of energy organizations do you work with?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Our energy and utilities software expertise spans electricity generation companies, transmission and distribution network operators, renewable energy developers, water and wastewater utilities, gas distribution networks, integrated energy retailers, battery storage operators, and energy technology organizations. We support initiatives across grid modernization, predictive maintenance, sustainability reporting, digital customer engagement, SCADA platform development, damage assessment, and AI-powered operational analytics.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "What is energy management software development?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Energy management software development involves creating intelligent platforms that enable organizations to monitor, optimize, and report on energy consumption, generation, storage, and distribution in real time. These solutions incorporate metering and telemetry data integration, demand forecasting, renewable energy optimization, carbon emission tracking, regulatory reporting automation, and performance analytics — enabling energy organizations to improve operational efficiency, reduce costs, meet sustainability obligations, and make data-driven decisions across their energy asset portfolios.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "What are the benefits of custom energy software development?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Custom energy software development delivers solutions precisely aligned to an organization’s operational workflows, asset architecture, regulatory obligations, and strategic objectives — rather than requiring adaptation to the limitations of off-the-shelf platforms. Benefits include seamless integration with proprietary SCADA systems, smart meters, IoT sensor networks, and enterprise applications; the ability to meet specific regulatory and cybersecurity compliance standards; differentiated customer engagement capabilities; scalable infrastructure to support expanding distributed energy resource portfolios; and long-term platform ownership and adaptability as operational requirements and energy technology landscapes evolve.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "What software is used in the energy and utilities industry?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "The energy and utilities industry relies on a broad technology ecosystem encompassing SCADA and distributed control systems for real-time operational monitoring, energy management systems for generation and grid dispatch optimization, geographic information systems for asset and outage management, digital twin simulation platforms for virtual asset modeling, enterprise asset management systems for maintenance scheduling, customer information and billing platforms for retail energy operations, IoT and telemetry data management platforms, carbon accounting and ESG reporting software, and AI-powered cybersecurity systems designed to protect critical operational technology infrastructure.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "Which company offers energy and utilities software development services?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Q3 Technologies is a globally recognized energy software development company with over 25 years of engineering experience delivering intelligent energy and utilities solutions to power generators, grid operators, renewable energy organizations, and utility providers across the USA, UK, Australia, and the UAE. Our energy and utilities software development services span digital twin implementation, cloud-based SCADA modernization, battery energy storage system development, carbon emission tracking, mobile field force automation, AI-powered cybersecurity, and customer engagement platform development — supported by ISO 27001 certification, CMMI Level 3 process maturity, and verified partnerships with Microsoft, AWS, and Google Cloud.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "How is AI used in energy and utilities software development?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "AI plays a transformative role across energy and utilities software development. In predictive maintenance, machine learning models analyze sensor telemetry to anticipate infrastructure failures before they occur. In grid operations, AI-powered analytics optimize load balancing, demand forecasting, and renewable energy dispatch. In cybersecurity, AI enables continuous threat monitoring, anomaly detection, and automated incident response across operational technology networks. In damage assessment, computer vision and geospatial intelligence accelerate infrastructure damage identification and recovery prioritization. In customer engagement, AI-powered chatbots and personalization engines improve service quality and reduce operational support costs for utility providers.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "What is the cost of energy software development?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Energy software development costs vary based on solution complexity, scope of engineering services, integration requirements, regulatory compliance demands, and ongoing support commitments. Focused point solutions such as a carbon emission tracking dashboard or a mobile field force application typically require a defined project investment, while comprehensive platforms combining SCADA modernization, digital twin implementation, customer engagement, and AI-powered analytics require a larger phased engagement. We recommend an initial discovery and scoping phase to define requirements, architecture, and a phased delivery roadmap aligned with organizational priorities and budget parameters.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "How do you ensure cybersecurity for energy and utilities software platforms?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "We apply a security-by-design engineering approach across all energy and utilities software development engagements, incorporating network segmentation, role-based access control, encrypted data transmission, continuous OT and IT network monitoring, and AI-powered anomaly detection. Our cybersecurity frameworks are aligned with NERC CIP, IEC 62443, ISO 27001, and NIST cybersecurity standards. We also conduct regular security assessments, penetration testing, and vulnerability management activities to ensure that energy platforms remain resilient against evolving cyber threats targeting critical infrastructure environments.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "blockType": "contactBand",
+      "heading": "Let’s Solve Your Next Technology Challenge",
+      "text": "Talk to our expert and get clarity on your roadmap—no pressure, no obligations.",
+      "thanksText": "Our Australian team will reply within 4 business hours (AEST).",
+      "blockName": "Contact form: Let’s Solve Your Next Technology Challenge"
+    }
+  ]
+}

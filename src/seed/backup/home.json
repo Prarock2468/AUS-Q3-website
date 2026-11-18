@@ -1,0 +1,476 @@
+{
+  "title": "Q3 Technologies",
+  "path": "/",
+  "template": "home",
+  "bodyClass": null,
+  "mainClass": null,
+  "layout": [
+    {
+      "label": "Section 1",
+      "html": "<link rel=\"preload\" as=\"image\" href=\"/assets/images/hero-poster.webp\" fetchpriority=\"high\">",
+      "blockName": "Section 1",
+      "blockType": "htmlSection"
+    },
+    {
+      "label": "Enterprise IT Services, AI & Software Engineering Solutions",
+      "html": "<section class=\"home-hero\" aria-labelledby=\"hero-title\">\n <div class=\"hero-card\">\n  <div class=\"hero-media\" aria-hidden=\"true\"><video autoplay muted loop playsinline preload=\"none\" poster=\"/assets/images/hero-poster.webp\" data-hero-video><source data-src=\"/assets/media/hero-video.webm\" type=\"video/webm; codecs=vp9\"><source data-src=\"/assets/media/hero-video.mp4\" type=\"video/mp4\"></video></div>\n  <div class=\"wrap\">\n    <ul class=\"hero-stats\" aria-label=\"Q3 at a glance\"><li><span class=\"pill-emoji\" aria-hidden=\"true\">☁️</span><strong>Salesforce</strong> Certified Partner</li><li><span class=\"pill-emoji\" aria-hidden=\"true\">🔒</span><strong>ISO 27001</strong> Certified</li><li><span class=\"pill-emoji\" aria-hidden=\"true\">🤝</span><strong>Microsoft</strong> Solutions Partner</li></ul>\n    <h1 id=\"hero-title\">Enterprise IT Services, AI & Software Engineering Solutions</h1>\n    <div class=\"hero-bottom\">\n      <p class=\"lede\">Backed by 25+ years of technical expertise, we bring together engineering excellence and strategic insight to architect, modernise, secure, and manage technology ecosystems that deliver lasting business value.</p>\n      <div class=\"actions\"><a class=\"btn btn-primary\" href=\"/services\" data-cta=\"hero_services\">Explore Our Services<svg class=\"ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a><a class=\"btn btn-outline\" href=\"/contact\" data-cta=\"hero_contact\">Talk to Our Experts<svg class=\"ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a></div>\n    </div>\n  </div>\n </div>\n</section>",
+      "blockName": "Enterprise IT Services, AI & Software Engineering Solutions",
+      "blockType": "htmlSection"
+    },
+    {
+      "section": "brands",
+      "anchorId": null,
+      "blockName": "Client logos",
+      "blockType": "sharedSection"
+    },
+    {
+      "label": "About Q3",
+      "html": "<section class=\"statement\" aria-label=\"About Q3\"><div class=\"wrap\">\n  <p data-statement><span class=\"w\">We</span> <span class=\"w\">solve</span> <span class=\"w\">complex</span> <span class=\"w\">business</span> <span class=\"w\">challenges</span> <span class=\"w\">with</span> <span class=\"w\">the</span> <span class=\"w\">right</span> <span class=\"w\">expertise,</span> <span class=\"w\">architecture,</span> <span class=\"w\">and</span> <span class=\"w\">approach.</span> <span class=\"w\">Our</span> <span class=\"w\">vendor-neutral</span> <span class=\"w\">philosophy</span> <span class=\"w\">ensures</span> <span class=\"w\">technology</span> <span class=\"w\">choices</span> <span class=\"w\">are</span> <span class=\"w\">driven</span> <span class=\"w\">by</span> <span class=\"w\">your</span> <span class=\"w\">business</span> <span class=\"w\">needs</span> <span class=\"w\">with</span> <span class=\"w\">a</span> <span class=\"w\">focus</span> <span class=\"w\">on</span> <span class=\"w\">engineering</span> <span class=\"w\">excellence,</span> <span class=\"w\">cost</span> <span class=\"w\">efficiency,</span> <span class=\"w\">and</span> <span class=\"w\">uncompromising</span> <span class=\"w\">quality.</span></p>\n  <div class=\"meta-row\">\n    <a class=\"btn btn-primary\" href=\"/about\">About Us <svg class=\"ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a>\n    <a class=\"btn btn-outline\" href=\"/about\">How We Work Securely<svg class=\"ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a>\n  </div>\n  <ul class=\"recstat-grid\" aria-label=\"Recognition and reviews\">\n    <li class=\"recstat\"><span class=\"recstat-badge\"><img decoding=\"async\" class=\"recstat-ico recstat-ico-img\" src=\"/assets/icons/recognition-default.svg\" alt=\"\" width=\"44\" height=\"44\" loading=\"lazy\"></span><span class=\"recstat-num\">25+ Years</span><span class=\"recstat-label\">of Industry Experience</span></li>\n    <li class=\"recstat\"><span class=\"recstat-badge\"><img decoding=\"async\" class=\"recstat-ico recstat-ico-img\" src=\"/assets/icons/recognition-default.svg\" alt=\"\" width=\"44\" height=\"44\" loading=\"lazy\"></span><span class=\"recstat-num\">8+ Years</span><span class=\"recstat-label\">Average Client Relationship</span></li>\n    <li class=\"recstat\"><span class=\"recstat-badge\"><img decoding=\"async\" class=\"recstat-ico recstat-ico-img\" src=\"/assets/icons/recognition-default.svg\" alt=\"\" width=\"44\" height=\"44\" loading=\"lazy\"></span><span class=\"recstat-num\">2,000+</span><span class=\"recstat-label\">Solutions Delivered</span></li>\n    <li class=\"recstat\"><span class=\"recstat-badge\"><img decoding=\"async\" class=\"recstat-ico recstat-ico-img\" src=\"/assets/icons/recognition-default.svg\" alt=\"\" width=\"44\" height=\"44\" loading=\"lazy\"></span><span class=\"recstat-num\">900+</span><span class=\"recstat-label\">Engineers and Specialists</span></li></ul>\n</div></section>",
+      "blockName": "About Q3",
+      "blockType": "htmlSection"
+    },
+    {
+      "label": "Our Services",
+      "html": "<section class=\"svc-wd\" aria-labelledby=\"svc-wd-title\"><div class=\"wrap\">\n  <div class=\"wd-head-row\"><h2 id=\"svc-wd-title\">Our Services</h2><a class=\"btn btn-outline wd-viewall\" href=\"/services\">View All <svg class=\"ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a></div>\n  <div class=\"wd-grid\">\n    <div class=\"wd-main\">\n      \n      <ol class=\"wd-list\" data-wd-list><li class=\"wd-item is-open\" data-wd>\n  <button class=\"wd-head\" type=\"button\" id=\"wd-h-0\" aria-expanded=\"true\" aria-controls=\"wd-p-0\">\n    <span class=\"wd-t\">AI Solutions Development</span><svg class=\"wd-arrow\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></button>\n  <div class=\"wd-panel\" id=\"wd-p-0\" role=\"region\" aria-labelledby=\"wd-h-0\"><div class=\"wd-in\">\n    <div class=\"wd-text\">\n      <p>As a leading AI solutions development company in Australia, we take agentic, generative and predictive AI from strategy through to production, built on your own data and existing systems.</p>\n      <a class=\"wd-link\" href=\"/services/ai-solutions-development\">Explore AI Services <svg class=\"ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a></div>\n    <ul class=\"wd-subs\">\n      <li><a href=\"https://www.q3tech.com/agentic-ai-development-services/\" rel=\"noopener\">Agentic AI Development</a></li>\n      <li><a href=\"https://www.q3tech.com/generative-ai-development-services/\" rel=\"noopener\">Generative AI</a></li>\n      <li><a href=\"https://www.q3tech.com/predictive-and-prescriptive-ai/\" rel=\"noopener\">Behavioural and Predictive Modelling</a></li>\n      <li><a href=\"https://www.q3tech.com/computer-vision/\" rel=\"noopener\">Computer Vision and Visual Intelligence</a></li>\n      <li><a href=\"https://www.q3tech.com/ai-strategy-consulting-services/\" rel=\"noopener\">AI Strategy and Consulting</a></li>\n    </ul>\n  </div></div>\n</li><li class=\"wd-item\" data-wd>\n  <button class=\"wd-head\" type=\"button\" id=\"wd-h-1\" aria-expanded=\"false\" aria-controls=\"wd-p-1\">\n    <span class=\"wd-t\">Custom Software Development</span><svg class=\"wd-arrow\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></button>\n  <div class=\"wd-panel\" id=\"wd-p-1\" role=\"region\" aria-labelledby=\"wd-h-1\"><div class=\"wd-in\">\n    <div class=\"wd-text\">\n      <p>We build custom web and mobile applications, SharePoint solutions, and cloud platforms, while modernising legacy systems through phased upgrades and DevOps to ensure seamless business continuity.</p><a class=\"wd-link\" href=\"/services/software-development\">Explore Software Development <svg class=\"ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a></div>\n    <ul class=\"wd-subs\">\n      <li><a href=\"/services/web-application-development\">Web Application Development</a></li>\n      <li><a href=\"/services/mobile-app-development-services\">Mobile App Development</a></li>\n      <li><a href=\"https://www.q3tech.com/sharepoint/\" rel=\"noopener\">SharePoint Development</a></li>\n      <li><a href=\"/services/software-development\">Legacy Application Modernisation</a></li>\n      <li><a href=\"/services/microsoft-solutions\">Cloud and DevOps Engineering</a></li>\n    </ul>\n  </div></div>\n</li><li class=\"wd-item\" data-wd>\n  <button class=\"wd-head\" type=\"button\" id=\"wd-h-2\" aria-expanded=\"false\" aria-controls=\"wd-p-2\"><span class=\"wd-t\">BI and Data Analytics</span><svg class=\"wd-arrow\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></button>\n  <div class=\"wd-panel\" id=\"wd-p-2\" role=\"region\" aria-labelledby=\"wd-h-2\"><div class=\"wd-in\">\n    <div class=\"wd-text\"><p>We unify your data on a governed platform that powers AI models, supported by data engineering and DataOps to deliver reliable reports and actionable dashboards for informed business decisions.</p><a class=\"wd-link\" href=\"/services/bi-and-data-analytics\">Explore Data and BI Services <svg class=\"ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a></div>\n    <ul class=\"wd-subs\"><li><a href=\"https://www.q3tech.com/dataops/\" rel=\"noopener\">DataOps</a></li><li><a href=\"https://www.q3tech.com/data-intelligence/\" rel=\"noopener\">Data Intelligence</a></li><li><a href=\"https://www.q3tech.com/business-intelligence/\" rel=\"noopener\">Business Intelligence</a></li><li><a href=\"https://www.q3tech.com/data-engineering/\" rel=\"noopener\">Data Engineering</a></li><li><a href=\"https://www.q3tech.com/reports-dashboard/\" rel=\"noopener\">Reports and Dashboards</a></li></ul>\n  </div></div>\n</li><li class=\"wd-item\" data-wd>\n  <button class=\"wd-head\" type=\"button\" id=\"wd-h-3\" aria-expanded=\"false\" aria-controls=\"wd-p-3\"><span class=\"wd-t\">Cybersecurity Services</span><svg class=\"wd-arrow\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></button>\n  <div class=\"wd-panel\" id=\"wd-p-3\" role=\"region\" aria-labelledby=\"wd-h-3\"><div class=\"wd-in\">\n    <div class=\"wd-text\"><p>We secure your enterprise software solutions, network, cloud and databases, and build security into delivery with DevSecOps from the first sprint. As an ISO 27001 certified team, we help you meet the controls auditors ask for.</p><a class=\"wd-link\" href=\"/services/cybersecurity-services\">Explore Security Services <svg class=\"ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a></div>\n    <ul class=\"wd-subs\"><li><a href=\"https://www.q3tech.com/devsecops/\" rel=\"noopener\">DevSecOps</a></li><li><a href=\"https://www.q3tech.com/application-security/\" rel=\"noopener\">Application Security</a></li><li><a href=\"https://www.q3tech.com/network-security/\" rel=\"noopener\">Network Security</a></li><li><a href=\"https://www.q3tech.com/cloud-security/\" rel=\"noopener\">Cloud Security</a></li><li><a href=\"https://www.q3tech.com/database-security/\" rel=\"noopener\">Database Security</a></li></ul>\n  </div></div>\n</li><li class=\"wd-item\" data-wd>\n  <button class=\"wd-head\" type=\"button\" id=\"wd-h-4\" aria-expanded=\"false\" aria-controls=\"wd-p-4\"><span class=\"wd-t\">Managed IT Services</span><svg class=\"wd-arrow\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></button>\n  <div class=\"wd-panel\" id=\"wd-p-4\" role=\"region\" aria-labelledby=\"wd-h-4\"><div class=\"wd-in\">\n    <div class=\"wd-text\"><p>We provide 24/7 IT support, remote infrastructure and cloud management, backed by defined service levels, IT consulting, and strategic planning.</p><a class=\"wd-link\" href=\"/services/managed-it-services\">Explore Managed IT <svg class=\"ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a></div>\n    <ul class=\"wd-subs\"><li><a href=\"https://www.q3tech.com/it-consulting-and-strategy-planning/\" rel=\"noopener\">IT Consulting and Strategy Planning</a></li><li><a href=\"https://www.q3tech.com/remote-infrastructure-management-services/\" rel=\"noopener\">Remote Infrastructure Management Services</a></li><li><a href=\"https://www.q3tech.com/cloud-infrastructure-services/\" rel=\"noopener\">Cloud Infrastructure Services</a></li><li><a href=\"https://www.q3tech.com/24-7-support-services/\" rel=\"noopener\">24x7 IT Support</a></li></ul>\n  </div></div>\n</li></ol>\n    </div>\n    <div class=\"wd-media\"><div class=\"wd-clip\"><img class=\"wd-img is-on\" data-wd-img=\"0\" src=\"/assets/images/appinv-svc-ai.webp\" alt=\"\" width=\"760\" height=\"1086\" loading=\"lazy\" decoding=\"async\"><img class=\"wd-img\" data-wd-img=\"1\" src=\"/assets/images/appinv-svc-software.webp\" alt=\"\" width=\"760\" height=\"1086\" loading=\"lazy\" decoding=\"async\"><img class=\"wd-img\" data-wd-img=\"2\" src=\"/assets/images/appinv-svc-data.webp\" alt=\"\" width=\"760\" height=\"1086\" loading=\"lazy\" decoding=\"async\"><img class=\"wd-img\" data-wd-img=\"3\" src=\"/assets/images/appinv-svc-security.webp\" alt=\"\" width=\"760\" height=\"1086\" loading=\"lazy\" decoding=\"async\"><img class=\"wd-img\" data-wd-img=\"4\" src=\"/assets/images/appinv-svc-managed.webp\" alt=\"\" width=\"760\" height=\"1086\" loading=\"lazy\" decoding=\"async\"></div></div>\n  </div>\n</div></section>",
+      "blockName": "Our Services",
+      "blockType": "htmlSection"
+    },
+    {
+      "section": "caseStudyStories",
+      "anchorId": null,
+      "blockName": "Case studies slider",
+      "blockType": "sharedSection"
+    },
+    {
+      "label": "Industries We Serve",
+      "html": "<section class=\"section alt industries-section\"><div class=\"wrap\">\n  <div class=\"section-head\"><div><h2>Industries We Serve</h2></div><a class=\"btn btn-outline\" href=\"/industries\">View all <svg class=\"ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a></div>\n  <div class=\"ai-tab-wrap\" data-ind-tabs>\n  <div class=\"hero-sticky\">\n    <div class=\"tabs-wrapper\" role=\"tablist\" aria-label=\"Industries we serve\">\n      <span class=\"droplet-indicator\" aria-hidden=\"true\"></span><button type=\"button\" class=\"tab-btn is-on\" role=\"tab\" data-ind-tab=\"0\" aria-selected=\"true\">Healthcare and Life Sciences</button><button type=\"button\" class=\"tab-btn\" role=\"tab\" data-ind-tab=\"1\" aria-selected=\"false\">Education</button><button type=\"button\" class=\"tab-btn\" role=\"tab\" data-ind-tab=\"2\" aria-selected=\"false\">Banking and Finance</button><button type=\"button\" class=\"tab-btn\" role=\"tab\" data-ind-tab=\"3\" aria-selected=\"false\">Logistics</button><button type=\"button\" class=\"tab-btn\" role=\"tab\" data-ind-tab=\"4\" aria-selected=\"false\">Retail and E-commerce</button><button type=\"button\" class=\"tab-btn\" role=\"tab\" data-ind-tab=\"5\" aria-selected=\"false\">Manufacturing</button>\n    </div>\n    <div class=\"hero-stage\">\n      <span class=\"card-bg-mesh\" aria-hidden=\"true\"></span>\n      <div class=\"tab-slides\"><div class=\"tab-slide is-on\" role=\"tabpanel\" aria-label=\"Healthcare and Life Sciences\">\n  <div class=\"slide-media\"><img src=\"/assets/images/industry-healthcare.webp\" srcset=\"/assets/images/industry-healthcare-800.webp 800w, /assets/images/industry-healthcare.webp 1200w\" sizes=\"(max-width: 800px) 100vw, 1200px\" alt=\"\" width=\"768\" height=\"401\" loading=\"lazy\" decoding=\"async\"></div>\n  <div class=\"slide-copy\"><h3>Healthcare and Life Sciences</h3><p>Give your care teams their time back. Our business technology solutions connect care, claims and reporting, and add AI-assisted diagnostics under ISO 27001 certified processes.</p><a class=\"btn btn-outline\" href=\"/industries/education\" aria-label=\"Know more about Healthcare and Life Sciences\">Know More <svg class=\"ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a></div>\n</div><div class=\"tab-slide\" role=\"tabpanel\" aria-label=\"Education\">\n  <div class=\"slide-media\"><img src=\"/assets/images/industry-education.webp\" srcset=\"/assets/images/industry-education-800.webp 800w, /assets/images/industry-education.webp 1200w\" sizes=\"(max-width: 800px) 100vw, 1200px\" alt=\"\" width=\"768\" height=\"401\" loading=\"lazy\" decoding=\"async\"></div>\n  <div class=\"slide-copy\"><h3>Education</h3><p>Answer student questions in seconds. We built an AI student assistant for a leading Australian EdTech organisation that responds from live LMS data and policy documents.</p><a class=\"btn btn-outline\" href=\"/industries/education\" aria-label=\"Know more about Education\">Know More <svg class=\"ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a></div>\n</div><div class=\"tab-slide\" role=\"tabpanel\" aria-label=\"Banking and Finance\">\n  <div class=\"slide-media\"><img src=\"/assets/images/industry-finance.webp\" srcset=\"/assets/images/industry-finance-800.webp 800w, /assets/images/industry-finance.webp 1200w\" sizes=\"(max-width: 800px) 100vw, 1200px\" alt=\"\" width=\"768\" height=\"401\" loading=\"lazy\" decoding=\"async\"></div>\n  <div class=\"slide-copy\"><h3>Banking and Finance</h3><p>Slow lending platforms and late collections cost you revenue. Our digital transformation services modernise lending and collections, and predictive analytics flag default risk early, with a full audit trail.</p><a class=\"btn btn-outline\" href=\"/industries/education\" aria-label=\"Know more about Banking and Finance\">Know More <svg class=\"ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a></div>\n</div><div class=\"tab-slide\" role=\"tabpanel\" aria-label=\"Logistics\">\n  <div class=\"slide-media\"><img src=\"/assets/images/industry-logistics.webp\" srcset=\"/assets/images/industry-logistics-800.webp 800w, /assets/images/industry-logistics.webp 1200w\" sizes=\"(max-width: 800px) 100vw, 1200px\" alt=\"\" width=\"768\" height=\"401\" loading=\"lazy\" decoding=\"async\"></div>\n  <div class=\"slide-copy\"><h3>Logistics</h3><p>Inventory errors and costly returns eat into your margin. For an Australian warehouse management company, we improved inventory accuracy by 70% and cut order returns by 60% with custom enterprise software solutions.</p><a class=\"btn btn-outline\" href=\"/industries/education\" aria-label=\"Know more about Logistics\">Know More <svg class=\"ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a></div>\n</div><div class=\"tab-slide\" role=\"tabpanel\" aria-label=\"Retail and E-commerce\">\n  <div class=\"slide-media\"><img src=\"/assets/images/appinv-ecommerce.webp\" alt=\"\" width=\"768\" height=\"401\" loading=\"lazy\" decoding=\"async\"></div>\n  <div class=\"slide-copy\"><h3>Retail and E-commerce</h3><p>We have expertise in developing AI for personalised product search and recommendations, backed by unified customer data and the commerce and loyalty platforms that turn browsers into buyers.</p><a class=\"btn btn-outline\" href=\"/industries/education\" aria-label=\"Know more about Retail and E-commerce\">Know More <svg class=\"ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a></div>\n</div><div class=\"tab-slide\" role=\"tabpanel\" aria-label=\"Manufacturing\">\n  <div class=\"slide-media\"><img src=\"/assets/images/appinv-svc-software.webp\" alt=\"\" width=\"768\" height=\"401\" loading=\"lazy\" decoding=\"async\"></div>\n  <div class=\"slide-copy\"><h3>Manufacturing</h3><p>Connect your entire factory with real-time production monitoring, predictive maintenance and shop-floor automation across every line, using enterprise AI solutions integrated with your ERP.</p><a class=\"btn btn-outline\" href=\"https://www.q3tech.com/manufacturing-software-development/\" rel=\"noopener\" aria-label=\"Know more about Manufacturing\">Know More <svg class=\"ico\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M7 17 17 7M8 7h9v9\"/></svg></a></div>\n</div></div>\n    </div>\n  </div>\n</div>\n</div></section>",
+      "blockName": "Industries We Serve",
+      "blockType": "htmlSection"
+    },
+    {
+      "section": "testimonials",
+      "anchorId": null,
+      "blockName": "Testimonials",
+      "blockType": "sharedSection"
+    },
+    {
+      "heading": "Insights",
+      "limit": 5,
+      "blockName": "Latest insights",
+      "blockType": "latestInsights",
+      "postSlugs": [
+        "agile-software-development-process-benefits-best-practices",
+        "iphone-duo-app-ui-design",
+        "financial-technology-trends",
+        "ai-in-healthcare",
+        "sharepoint-migration-cost-and-roi-guide"
+      ]
+    },
+    {
+      "heading": "Frequently asked questions",
+      "style": "home",
+      "intro": "Find quick answers to the most commonly asked questions about our services, process, pricing, timelines, and support.",
+      "showSalesContact": true,
+      "blockName": "FAQs (11)",
+      "items": [
+        {
+          "question": "What does an IT services company in Australia do for enterprises?",
+          "answer": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "It designs, builds and runs the technology a business depends on, led by enterprise AI and managed IT, with custom software, cloud, data and security around them. We deliver each through one accountable team, from discovery to day-to-day operations.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": null,
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                }
+              ],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          }
+        },
+        {
+          "question": "How do I choose an IT solutions provider in Australia that enterprises can rely on?",
+          "answer": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Check certifications such as ISO 27001, ask for references in your industry and confirm support hours match yours. Q3 Technologies holds ISO 27001 certification and shares relevant case studies before you commit, so you can judge fit first.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": null,
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                }
+              ],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          }
+        },
+        {
+          "question": "Are you an IT company in Australia?",
+          "answer": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Yes. We serve Australian enterprises and have delivered projects for Australian clients in education and logistics. Our global engineering teams work under ISO 27001 certified processes, with regular reporting to your stakeholders throughout each engagement and after go-live.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": null,
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                }
+              ],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          }
+        },
+        {
+          "question": "Can you cover all of the enterprise IT services in Australia that organisations need?",
+          "answer": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Common requests include managed IT with 24x7 support, moving AI pilots into production, cloud migration, legacy modernisation, data and analytics, and cybersecurity. We scope each one against your existing systems first, then agree priorities and sequencing with you.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": null,
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                }
+              ],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          }
+        },
+        {
+          "question": "What should I expect from an IT consulting company in Australia in a first engagement?",
+          "answer": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Expect a written assessment of your systems and risks, a prioritised roadmap with effort and cost ranges, and a recommendation you can take to your board for sign-off. Our team can then build and run what the roadmap sets out.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": null,
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                }
+              ],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          }
+        },
+        {
+          "question": "Can an IT development company in Australia work with systems we already run?",
+          "answer": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Yes. We review existing code, data and hosting first, then integrate or modernise in stages. We work with Microsoft, Salesforce and custom platforms, and are a Microsoft Solution Partner for Azure AI and Cloud.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": null,
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                }
+              ],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          }
+        },
+        {
+          "question": "How do you keep our data safe in AI-driven business solutions you build for us?",
+          "answer": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "We scope models to your own governed data, restrict access by role and keep workloads inside your cloud tenancy where required. Our delivery is ISO 27001 certified, and we help you meet Australian Privacy Act obligations from day one.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": null,
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                }
+              ],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          }
+        },
+        {
+          "question": "If we sign up, do you provide enterprise technology solutions in Australia with 24x7 support?",
+          "answer": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Yes. Our managed IT team provides 24x7 IT support, monitoring and remote infrastructure management, with response targets agreed in your service-level agreement. Escalation paths are set around your Australian operations, time zones and internal reporting lines.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": null,
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                }
+              ],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          }
+        },
+        {
+          "question": "How is managed IT different from IT outsourcing services?",
+          "answer": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Managed IT runs defined services, such as support, monitoring and cloud operations, against agreed service targets. Broader outsourcing can also cover project delivery and staffing. We offer both, and recommend the narrowest scope that still meets your goal.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": null,
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                }
+              ],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          }
+        },
+        {
+          "question": "What affects the cost and timeline of custom software development?",
+          "answer": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Scope, integrations, data quality, compliance needs, team size, legacy constraints and release approach set both. A short discovery phase comes first, then we estimate delivery in ranges you can plan against, rather than a single figure with hidden assumptions.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": null,
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                }
+              ],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          }
+        },
+        {
+          "question": "How do I start a project or discuss digital transformation services?",
+          "answer": {
+            "root": {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "text": "Book a call or submit the form with your goals and current systems. An expert replies within 4 business hours and scopes realistic next steps with no obligation. We can sign an NDA on request before you share any detail.",
+                      "type": "text",
+                      "version": 1
+                    }
+                  ],
+                  "direction": null,
+                  "format": "",
+                  "indent": 0,
+                  "type": "paragraph",
+                  "version": 1,
+                  "textFormat": 0,
+                  "textStyle": ""
+                }
+              ],
+              "direction": null,
+              "format": "",
+              "indent": 0,
+              "type": "root",
+              "version": 1
+            }
+          }
+        }
+      ],
+      "blockType": "faq"
+    },
+    {
+      "heading": "Tell Us What You Need Built, Fixed or Run",
+      "text": "Talk to a digital transformation company Australia enterprises can brief in a single call. Expect a reply within 4 business hours and no obligation.",
+      "thanksText": "Our team will reply within 4 business hours (AEST).",
+      "anchorId": null,
+      "blockName": "Contact form: Tell Us What You Need Built, Fixed or Run",
+      "blockType": "contactBand"
+    }
+  ],
+  "searchSection": "Home",
+  "searchDescription": "Q3 Technologies helps Australian organisations modernise legacy platforms, build governed AI and run data and cloud, with senior teams working in your hours.",
+  "hideFromSearch": false,
+  "meta": {
+    "title": "Q3 Technologies | AI, Modernisation, Data and Cloud Engineering",
+    "description": "Q3 Technologies helps Australian organisations modernise legacy platforms, build governed AI and run data and cloud, with senior teams working in your hours.",
+    "image": null
+  },
+  "seoExtras": {
+    "canonical": null,
+    "noindex": null,
+    "globalUrl": "https://www.q3tech.com/",
+    "structuredData": null
+  }
+}

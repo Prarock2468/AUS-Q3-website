@@ -1,0 +1,346 @@
+{
+  "title": "Retail and E-commerce Industry Solutions",
+  "path": "/industries/retail-and-e-commerce",
+  "template": "industryDetail",
+  "_status": "published",
+  "searchSection": "Company",
+  "searchDescription": "Build scalable eCommerce software, online marketplaces and retail platforms with seamless shopping experiences that drive business growth and sales.",
+  "meta": {
+    "title": "E-Commerce Software Development Company for Retail Brands | Q3 Technologies",
+    "description": "Build scalable eCommerce software, online marketplaces and retail platforms with seamless shopping experiences that drive business growth and sales."
+  },
+  "seoExtras": {
+    "globalUrl": "https://www.q3tech.com/e-commerce-software-development/"
+  },
+  "layout": [
+    {
+      "blockType": "htmlSection",
+      "label": "Retail Software Development",
+      "html": "<section class=\"ind-hero\" aria-labelledby=\"ind-hero-title\">\n  <div class=\"ind-hero__in\">\n    <nav class=\"breadcrumb\" aria-label=\"Breadcrumb\"><ol><li><a href=\"/\">Home</a></li><li><a href=\"/industries\">Industries</a></li><li aria-current=\"page\">Retail and E-commerce</li></ol></nav>\n    <div class=\"ind-hero__top\">\n      <h1 id=\"ind-hero-title\">Retail<br>Software Development</h1>\n      <div class=\"ind-hero__side\">\n        <p>Our custom retail software development services empower retailers, E-Commerce brands, and marketplace operators with scalable, AI-powered digital commerce solutions engineered to accelerate growth, delight customers, and deliver operational excellence across every channel.</p>\n        <div class=\"ind-hero__btns\">\n      <a class=\"ind-btn ind-btn--primary\" href=\"/contact\">Talk to Our Experts <svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M6 14L14 6M7 6h7v7\"></path></svg></a>\n      <a class=\"ind-btn ind-btn--ghost\" href=\"/case-studies\">View case studies <svg viewBox=\"0 0 20 20\" aria-hidden=\"true\"><path d=\"M6 14L14 6M7 6h7v7\"></path></svg></a>\n    </div>\n      </div>\n    </div>\n    <figure class=\"ind-hero__media\"><img src=\"/assets/images/industry-details/retail-and-e-commerce/hero.webp\" srcset=\"/assets/images/industry-details/retail-and-e-commerce/hero-800.webp 800w, /assets/images/industry-details/retail-and-e-commerce/hero.webp 1344w\" sizes=\"100vw\" alt=\"Retail Software Development\" width=\"1344\" height=\"600\" fetchpriority=\"high\"></figure>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "sharedSection",
+      "section": "brands",
+      "blockName": "Client logos"
+    },
+    {
+      "blockType": "htmlSection",
+      "label": "What We Do",
+      "html": "<section class=\"section alt wwd\" aria-labelledby=\"wwd-title\">\n  <div class=\"wrap\">\n    <div class=\"wwd-head\">\n      <h2 id=\"wwd-title\">What We Do</h2>\n      <p>Retailers and e-commerce brands compete on the quality of the digital experiences they deliver, the intelligence of the technology powering them, and the efficiency of the operations behind them. Our AI-powered retail software solutions including e-commerce platform development, retail mobile apps, omnichannel commerce, personalization, supply chain integration, and retail analytics help brands accelerate growth, enhance customer experiences, and optimize operations across every channel.</p>\n    </div>\n    <ul class=\"wwd-list\" data-wwd=\"\">\n      <li class=\"wwd-card is-active\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-1\" aria-expanded=\"true\" aria-controls=\"wwd-panel-1\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/retail-and-e-commerce/e-commerce-platform-development.svg\" alt=\"\" width=\"32\" height=\"32\">E-Commerce Platform Development</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-1\" role=\"region\" aria-labelledby=\"wwd-btn-1\">\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We design, build, and scale custom e-commerce platforms and storefronts focused on performance, conversion, and long-term growth. Our expertise spans headless and composable commerce, Magento/Adobe Commerce, product catalogue management, search, merchandising, checkout optimisation, multi-region support, and third-party integrations. We have delivered solutions for global brands including Panasonic, Deckers (Outdoor), and Samsung, supporting high-volume traffic, complex catalogues, and demanding global operations.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Custom E-Commerce platform and storefront development (headless, composable, traditional)</li><li>Magento/Adobe Commerce build, migration, and managed optimisation</li><li>Multi-currency, multi-language, and multi-region E-Commerce platform architecture</li><li>Product catalogue management, search, merchandising, and conversion rate optimisation</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"772\" src=\"/assets/images/industry-details/retail-and-e-commerce/e-commerce-platform.webp\" alt=\"E-Commerce Platform Development\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-2\" aria-expanded=\"false\" aria-controls=\"wwd-panel-2\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/retail-and-e-commerce/retail-mobile-app-development.svg\" alt=\"\" width=\"32\" height=\"32\">Retail Mobile App Development</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-2\" role=\"region\" aria-labelledby=\"wwd-btn-2\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We design and build high-performance iOS and Android retail apps that support product discovery, personalized recommendations, checkout, order tracking, and loyalty programmes. Our solutions also include in-store digital tools, mobile POS applications, and retail staff apps that connect physical and digital experiences. Built with security, accessibility, performance, and cross-device consistency in mind, our apps help retailers improve engagement and digital conversion.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>iOS and Android retail shopping app development with personalised recommendation engines</li><li>In-store digital experience apps with AR product visualisation and self-checkout features</li><li>Mobile POS applications with payment processing, invoicing, and inventory management</li><li>Loyalty and rewards apps with AI-driven personalised promotions and CRM integration</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/retail-and-e-commerce/retail-mobile-app.webp\" alt=\"Retail Mobile App Development\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-3\" aria-expanded=\"false\" aria-controls=\"wwd-panel-3\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/retail-and-e-commerce/on-demand-services-app-development.svg\" alt=\"\" width=\"32\" height=\"32\">On-Demand Services App Development</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-3\" role=\"region\" aria-labelledby=\"wwd-btn-3\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We develop on-demand service applications that enable seamless, real-time experiences across web and mobile. Our platforms support service discovery, instant and scheduled bookings, provider onboarding, GPS-based tracking, dynamic pricing, secure payments, ratings, reviews, chat, notifications, and AI-powered recommendations. Integrated with CRM, ERP, payment, mapping, and third-party systems, our cloud-native solutions help businesses automate operations and scale service delivery across locations.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Multi-service marketplace with dedicated customer, service provider, and admin applications</li><li>Real-time booking, technician dispatch, live tracking, and appointment management</li><li>Secure payments, subscriptions, loyalty programs, and promotional campaign management</li><li>Analytics dashboards, workforce management, and enterprise system integrations (CRM, ERP, payment gateways, maps)</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/retail-and-e-commerce/on-demand-services.webp\" alt=\"On-Demand Services App Development\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-4\" aria-expanded=\"false\" aria-controls=\"wwd-panel-4\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/retail-and-e-commerce/ai-powered-personalisation-customer-intelligence.svg\" alt=\"\" width=\"32\" height=\"32\">AI-Powered Personalisation and Customer Intelligence</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-4\" role=\"region\" aria-labelledby=\"wwd-btn-4\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We build AI personalization engines that analyze customer behaviour, purchase history, browsing patterns, and preference data to deliver tailored recommendations, dynamic content, personalized pricing, and targeted promotions. Our customer intelligence solutions use real-time individual-level models to help retailers create personalized experiences at scale. Built around privacy-first approaches, they leverage zero-party and first-party data while supporting GDPR and CCPA requirements.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Real-time AI recommendation engines for product discovery and cross-sell</li><li>Customer segmentation, CLV modeling, and churn prediction platforms</li><li>Dynamic content personalization and A/B testing infrastructure</li><li>Zero-party and first-party data collection and personalization architecture</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/retail-and-e-commerce/ai-powered-personalisation.webp\" alt=\"AI-Powered Personalisation and Customer Intelligence\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-5\" aria-expanded=\"false\" aria-controls=\"wwd-panel-5\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/retail-and-e-commerce/omnichannel-commerce-unified-commerce-platforms.svg\" alt=\"\" width=\"32\" height=\"32\">Omnichannel Commerce and Unified Commerce Platforms</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-5\" role=\"region\" aria-labelledby=\"wwd-btn-5\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We build unified commerce platforms that connect online stores, mobile apps, physical locations, marketplaces, and social commerce into a consistent customer and operational ecosystem. Our solutions provide real-time inventory visibility and flexible fulfilment through OMS development, click-and-collect, ship-from-store, endless aisle, and in-store digital experiences. We help retailers eliminate silos and deliver seamless experiences across every channel.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Unified Order Management System (OMS) development and integration</li><li>Click-and-collect, ship-from-store, and flexible fulfilment workflow platforms</li><li>Marketplace integration (Amazon, eBay, Noon, Flipkart) and multi-channel listing management</li><li>In-store digital experience solutions: digital kiosks, endless aisle, and assisted selling tools</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/retail-and-e-commerce/omnichannel-commerce.webp\" alt=\"Omnichannel Commerce and Unified Commerce Platforms\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-6\" aria-expanded=\"false\" aria-controls=\"wwd-panel-6\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/retail-and-e-commerce/retail-analytics-business-intelligence.svg\" alt=\"\" width=\"32\" height=\"32\">Retail Analytics, Business Intelligence and Demand Forecasting</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-6\" role=\"region\" aria-labelledby=\"wwd-btn-6\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We build retail analytics platforms that turn sales, inventory, customer, and marketing data into actionable insights for faster, data-driven decisions. Our solutions cover real-time trading dashboards, demand forecasting, customer analytics, marketing attribution, and supply chain visibility, helping retailers optimize stock, reduce markdowns, improve margins, and personalize customer engagement across categories and channels.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Real-time retail trading dashboards and executive performance reporting</li><li>AI-powered demand forecasting and inventory optimisation models</li><li>Customer analytics, segmentation, CLV modelling, and marketing attribution platforms</li><li>Markdown optimisation, promotional effectiveness, and pricing intelligence analytics</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/retail-and-e-commerce/retail-analytics.webp\" alt=\"Retail Analytics, Business Intelligence and Demand Forecasting\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-7\" aria-expanded=\"false\" aria-controls=\"wwd-panel-7\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/retail-and-e-commerce/e-commerce-platform-development-1.svg\" alt=\"\" width=\"32\" height=\"32\">E-Commerce Testing, QA Automation and DevOps</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-7\" role=\"region\" aria-labelledby=\"wwd-btn-7\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We provide quality engineering and DevOps services that keep high-traffic retail and e-commerce platforms reliable, secure, and performant during peak trading periods. Our QA expertise covers functional, regression, performance, payment, API, cross-browser, and cross-device testing, supported by automated test suites integrated into CI/CD pipelines. We also provide containerization, cloud infrastructure management, and release governance to help retail teams deploy faster with greater confidence.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>E-commerce functional, regression, performance, and payment flow test automation</li><li>Cross-browser, cross-device, and cross-region compatibility testing</li><li>CI/CD pipeline engineering and automated release governance for retail platforms</li><li>API testing and integration validation for OMS, ERP, payment, and third-party connections</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/retail-and-e-commerce/e-commerce-testing.webp\" alt=\"E-Commerce Testing, QA Automation and DevOps\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-8\" aria-expanded=\"false\" aria-controls=\"wwd-panel-8\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/retail-and-e-commerce/payments-checkout-optimization-fraud.svg\" alt=\"\" width=\"32\" height=\"32\">Payments, Checkout Optimization and Fraud Prevention</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-8\" role=\"region\" aria-labelledby=\"wwd-btn-8\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We build and optimize payment and checkout infrastructure that creates seamless, high-converting purchase journeys across global markets. Our solutions support multiple payment methods, digital wallets, BNPL, and regional preferences while incorporating PCI-DSS compliance, tokenization, 3DS2 authentication, and ML-powered fraud detection. We also optimize checkout UX to reduce abandonment while protecting transactions from fraudulent activity.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Multi-payment gateway integration and digital wallet (Apple Pay, Google Pay) support</li><li>PCI-DSS compliant checkout architecture with tokenisation and 3DS2 authentication</li><li>BNPL and alternative payment method integration for global markets</li><li>Real-time fraud detection and prevention using ML and behavioral analytics</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/retail-and-e-commerce/payments-checkout.webp\" alt=\"Payments, Checkout Optimization and Fraud Prevention\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n      <li class=\"wwd-card\">\n        <h3><button type=\"button\" class=\"wwd-card__btn\" id=\"wwd-btn-9\" aria-expanded=\"false\" aria-controls=\"wwd-panel-9\"><img decoding=\"async\" loading=\"lazy\" class=\"wwd-card__ico\" src=\"/assets/icons/industry-details/retail-and-e-commerce/retail-erp-system-integration.svg\" alt=\"\" width=\"32\" height=\"32\">Retail ERP, CRM &amp; POS System Integration</button></h3>\n        <div class=\"wwd-card__panel\" id=\"wwd-panel-9\" role=\"region\" aria-labelledby=\"wwd-btn-9\" inert>\n          <div class=\"wwd-card__inner\">\n            <div class=\"wwd-card__copy\">\n              <p>We integrate retail ERP, CRM, and POS systems to create connected operations with consistent data across sales, inventory, customers, and finance. Our services include Salesforce CRM implementation, custom ERP integration, multi-site POS connectivity, and API middleware that connects legacy systems with modern digital platforms. We also develop specialized retail solutions, including Auction Management Systems, to streamline sales, discounts, returns, customer management, and POS operations.</p>\n              <ul class=\"wwd-card__list\" aria-label=\"Key capabilities\"><li>Retail ERP integration with e-commerce, OMS, CRM, and warehouse management systems</li><li>Salesforce CRM implementation and customization for retail customer management</li><li>Multi-site POS system integration with real-time sales and inventory synchronization</li><li>Custom Auction Management System development with returns, discounts, and customer management</li></ul>\n            </div>\n            <figure class=\"wwd-card__fig\"><img width=\"580\" height=\"640\" src=\"/assets/images/industry-details/retail-and-e-commerce/retail-erp.webp\" alt=\"Retail ERP, CRM &amp; POS System Integration\" loading=\"lazy\" decoding=\"async\"></figure>\n          </div>\n        </div>\n      </li>\n    </ul>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "htmlSection",
+      "label": "Challenges We Address in Retail",
+      "html": "<section class=\"section chl\" aria-labelledby=\"chl-title\" data-chl=\"\">\n  <div class=\"chl__pin\">\n  <img width=\"1897\" height=\"917\" class=\"chl__bg\" src=\"/assets/images/industry-details/challenges-bg.webp\" srcset=\"/assets/images/industry-details/challenges-bg-800.webp 800w, /assets/images/industry-details/challenges-bg.webp 1600w\" sizes=\"(max-width: 800px) 100vw, 1600px\" alt=\"\" loading=\"lazy\" decoding=\"async\">\n  <div class=\"wrap\">\n    <h2 id=\"chl-title\">Challenges We Address in Retail</h2>\n  </div>\n  <div class=\"chl__rail\">\n    <ul class=\"chl__track\" aria-label=\"Challenges\" tabindex=\"0\">\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/retail-and-e-commerce/challenges/omnichannel-complexity.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Omnichannel Complexity</h3><ul class=\"chl-card__list\"><li>Fragmented online and offline channels</li><li>Inconsistent customer data across touchpoints</li><li>Unified commerce platform gaps</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/retail-and-e-commerce/challenges/icon-park-scale.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Platform Scalability</h3><ul class=\"chl-card__list\"><li>Peak traffic management during sales events</li><li>Legacy E-Commerce platform limitations</li><li>Cart abandonment and checkout failure under load</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/retail-and-e-commerce/challenges/mingcute-ai-line.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>AI Personalisation</h3><ul class=\"chl-card__list\"><li>Generic, non-personalised customer journeys</li><li>Poor product discovery and recommendation</li><li>Low conversion from high-traffic campaigns</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/retail-and-e-commerce/challenges/payments-checkout.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Payments &amp; Checkout</h3><ul class=\"chl-card__list\"><li>Payment gateway fragmentation</li><li>High cart abandonment at checkout</li><li>Multi-currency and cross-border complexity</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/retail-and-e-commerce/challenges/supply-chain-inventory.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Supply Chain and Inventory</h3><ul class=\"chl-card__list\"><li>Real-time stock visibility across channels</li><li>Demand forecasting inaccuracy</li><li>Last-mile delivery complexity</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/retail-and-e-commerce/challenges/customes-retention.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Customer Retention</h3><ul class=\"chl-card__list\"><li>Poor loyalty programme engagement</li><li>Churn from impersonal communication</li><li>Post-purchase experience gaps</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/retail-and-e-commerce/challenges/data-analytics-maturity.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Data and Analytics Maturity</h3><ul class=\"chl-card__list\"><li>Siloed customer and sales data</li><li>Limited attribution and CLV modelling</li><li>Absence of real-time trading intelligence</li></ul></li>\n      <li class=\"chl-card\"><span class=\"chl-card__ico\"><img decoding=\"async\" loading=\"lazy\" src=\"/assets/icons/industry-details/retail-and-e-commerce/challenges/security-compliance-2.svg\" alt=\"\" width=\"36\" height=\"36\"></span><h3>Security and Compliance</h3><ul class=\"chl-card__list\"><li>PCI-DSS payment data compliance</li><li>Fraud and return abuse prevention</li><li>GDPR and data privacy obligations</li></ul></li>\n    </ul>\n    <div class=\"chl__bar\" aria-hidden=\"true\"><span></span></div>\n  </div>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "htmlSection",
+      "label": "Benefits of Our Retail and E-Commerce Technology Services",
+      "html": "<section class=\"section bnf\" aria-labelledby=\"bnf-title\">\n  <div class=\"wrap bnf__in\">\n    <div class=\"bnf__intro\">\n      <h2 id=\"bnf-title\">Benefits of Our Retail and E-Commerce Technology Services</h2>\n      <p>By combining retail domain expertise with enterprise engineering capabilities, we help retailers, E-Commerce brands, and marketplace operators build digital commerce ecosystems that grow revenue, improve customer experience, and deliver operational efficiency at scale.</p>\n      <img width=\"660\" height=\"600\" class=\"bnf__img\" src=\"/assets/images/industry-details/retail-and-e-commerce/benefits.webp\" alt=\"Retail and E-commerce software solutions\" loading=\"lazy\" decoding=\"async\">\n    </div>\n    <ol class=\"bnf__list\">\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><polyline points=\"22 7 13.5 15.5 8.5 10.5 2 17\"></polyline><polyline points=\"16 7 22 7 22 13\"></polyline></svg></span><h3>Increased Revenue and Conversion</h3><p>Our AI personalization engines, checkout optimization, and high-performance E-Commerce platforms are built specifically to improve product discovery, reduce cart abandonment, and increase conversion — delivering measurable revenue uplift from the same traffic volume through better digital experiences and smarter customer intelligence.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16\"></path><rect width=\"20\" height=\"14\" x=\"2\" y=\"6\" rx=\"2\"></rect></svg></span><h3>Improved Customer Experience and Loyalty</h3><p>Through personalized recommendations, seamless omnichannel journeys, mobile-first experiences, and intelligent loyalty programs, we help retailers deliver the consistent, relevant, and rewarding experiences that build long-term customer relationships and reduce churn.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"m12 14 4-4\"></path><path d=\"M3.34 19a10 10 0 1 1 17.32 0\"></path></svg></span><h3>Greater Operational Efficiency</h3><p>By integrating ERP, OMS, CRM, POS, and warehouse systems into unified operational platforms, we eliminate manual reconciliation, reduce errors, and give retail operations teams real-time visibility into stock, orders, fulfilment, and customer data — freeing resources to focus on growth rather than administration.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M22 12h-2.48a2 2 0 0 0-1.93 1.46l-2.35 8.36a.25.25 0 0 1-.48 0L9.24 2.18a.25.25 0 0 0-.48 0l-2.35 8.36A2 2 0 0 1 4.49 12H2\"></path></svg></span><h3>Scalable Platform for Peak Trading Performance</h3><p>Our e-commerce platforms are architected and tested for peak trading events — from Black Friday and Eid to product launches and flash sales — ensuring that your digital commerce infrastructure delivers reliable performance under maximum load when revenue opportunity is greatest.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z\"></path></svg></span><h3>Faster Time-to-Market for New Products and Features</h3><p>Our headless commerce architectures, CI/CD pipelines, and agile delivery model enable retail engineering teams to deploy new features, campaigns, and product experiences faster — reducing the dependency between frontend innovation and backend platform releases.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\"></path><path d=\"M20 3v4\"></path><path d=\"M22 5h-4\"></path><path d=\"M4 17v2\"></path><path d=\"M5 18H3\"></path></svg></span><h3>Stronger Data Foundation and Trading Intelligence</h3><p>Our retail analytics and BI platforms give buyers, merchandisers, marketers, and executives a real-time, integrated view of trading performance, customer behaviour, and supply chain status — enabling data- driven decisions that improve margins, reduce markdowns, and optimize promotional investment.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\"></path><path d=\"m9 12 2 2 4-4\"></path></svg></span><h3>Reduced Fraud and Chargeback Risk</h3><p>Our ML-powered fraud detection and PCI-DSS compliant payment architectures protect revenue and customer data without introducing checkout friction — reducing chargebacks, return abuse, and payment fraud while maintaining the seamless purchase experience that converts customers.</p></li>\n      <li class=\"bnf-card\"><span class=\"bnf-card__ico\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" width=\"24\" height=\"24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\"></path><path d=\"m9 12 2 2 4-4\"></path></svg></span><h3>Trusted, Secure Retail Technology</h3><p>ISO 27001-certified security practices and CMMI Level 3 delivery processes ensure every retail platform we build is constructed to the highest standards of code quality, data security, and operational reliability — protecting customer data, payment information, and brand reputation.</p></li>\n    </ol>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "sharedSection",
+      "section": "caseStudyStories",
+      "blockName": "Case studies slider"
+    },
+    {
+      "blockType": "sharedSection",
+      "section": "testimonials",
+      "blockName": "Testimonials"
+    },
+    {
+      "blockType": "htmlSection",
+      "label": "Why Choose Us for Retail Software Development",
+      "html": "<section class=\"invest\" aria-label=\"Why Choose Us for Retail Software Development\">\n  <div class=\"invest__in\">\n    <div class=\"sec-head\">\n      <h2>Why Choose Us for Retail Software Development</h2>\n      <p class=\"sec-head__p\" style=\"width:1222px\">We are a trusted retail software development company with proven expertise in e-commerce, retail apps, AI personalization, analytics, and omnichannel platforms. Our secure, scalable, and full-stack capabilities help retailers enhance customer experiences, optimize operations, and drive measurable digital commerce growth.</p>\n    </div>\n    <div class=\"invest__cards\" data-carousel=\"invest\">\n      <button class=\"invest__arrow invest__arrow--prev\" type=\"button\" aria-label=\"Previous cards\" disabled=\"\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M19 12H5M11 6l-6 6 6 6\"></path></svg></button>\n      <div class=\"invest__viewport\" tabindex=\"0\" role=\"region\" aria-label=\"Cards\">\n        <div class=\"invest__track\">\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16\"></path><rect width=\"20\" height=\"14\" x=\"2\" y=\"6\" rx=\"2\"></rect></svg><h3>Deep Retail and E-Commerce Domain Expertise</h3></div><p>Our retail technology practice spans global consumer electronics, outdoor apparel, fashion, jewelry, and fast-moving consumer goods — with verified delivery for Samsung, Panasonic, Deckers, and Havells. We understand the operational complexity of retail at scale: high-volume catalogues, seasonal demand, multi-channel fulfilment, and the unforgiving customer experience standards of global retail brands.</p></div></div>\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\"></path><path d=\"M20 3v4\"></path><path d=\"M22 5h-4\"></path><path d=\"M4 17v2\"></path><path d=\"M5 18H3\"></path></svg><h3>AI-First Digital Commerce Capabilities</h3></div><p>We combine AI personalization, demand forecasting, fraud detection, and customer intelligence with strong E-Commerce platform engineering — enabling retailers to build digital commerce ecosystems where technology actively drives revenue growth, not just operational continuity. Our AI capabilities are production-ready, privacy-compliant, and built for measurable business impact.</p></div></div>\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z\"></path><path d=\"m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65\"></path><path d=\"m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65\"></path></svg><h3>Full-Stack Retail Technology Solutions</h3></div><p>From E-Commerce platform development and retail app engineering to QA automation, DevOps, payment integration, ERP/CRM connectivity, and retail analytics. We bring the complete retail technology stack under one roof. This breadth eliminates the integration risk that comes from managing multiple specialist vendors across a complex digital commerce architecture.</p></div></div>\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\"></path><path d=\"m9 12 2 2 4-4\"></path></svg><h3>Security and Compliance by Design</h3></div><p>Retail platforms handle payment card data, customer personal data, and high-value transaction records. Our ISO 27001-certified security practices and PCI-DSS compliance expertise ensure every platform is built to protect customer data and payment information — with security embedded from architecture through to deployment and ongoing managed operations.</p></div></div>\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><path d=\"M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z\"></path><path d=\"m9 12 2 2 4-4\"></path></svg><h3>Certified Delivery Quality at Enterprise Scale</h3></div><p>Our CMMI Level 3 certification reflects a mature, repeatable delivery model with defined processes for quality management, risk management, and continuous improvement — giving retail technology leaders confidence that complex, high-stakes programs will be delivered reliably and to the highest quality standards.</p></div></div>\n          <div class=\"icard\"><div class=\"icard__in\"><div class=\"icard__head\"><svg class=\"icard__icon\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#000\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20\"></path><path d=\"M2 12h20\"></path></svg><h3>Proven Global Retail Delivery Track Record</h3></div><p>We have delivered retail and E-Commerce technology solutions for clients across India, the UAE, the UK, Australia, and North America — spanning consumer electronics, apparel, fashion, and FMCG. Our 25+ years of enterprise delivery experience and global footprint mean we bring genuine retail domain depth to every engagement, not generic software development capability.</p></div></div>\n        </div>\n      </div>\n      <button class=\"invest__arrow invest__arrow--next\" type=\"button\" aria-label=\"Next cards\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M5 12h14M13 6l6 6-6 6\"></path></svg></button>\n    </div>\n  </div>\n</section>"
+    },
+    {
+      "blockType": "faq",
+      "heading": "Frequently asked questions",
+      "style": "section",
+      "intro": "Find quick answers to the most commonly asked questions about our services, process, pricing, timelines, and support.",
+      "showSalesContact": true,
+      "blockName": "FAQs (8)",
+      "items": [
+        {
+          "question": "What is retail software development?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Retail software development is the process of designing, building, and integrating digital solutions that help retailers manage sales, inventory, customer experiences, and business operations across online and physical channels. These solutions include E-Commerce platforms, retail mobile applications, POS systems, inventory and order management, CRM, loyalty programs, AI-powered personalization, and omnichannel commerce platforms that improve operational efficiency, customer engagement, and revenue growth.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "What retail and E-Commerce technology solutions do you provide?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "We deliver end-to-end retail and e-commerce solutions, including custom e-commerce platform development, Magento/Adobe Commerce implementation, retail mobile app development, AI personalization engines, omnichannel commerce platforms, retail analytics and demand forecasting, e-commerce QA automation and DevOps, payment and checkout optimization, fraud prevention, and retail ERP/CRM/POS integration. We serve global retailers, e-commerce brands, and marketplace operators across consumer electronics, apparel, fashion, and FMCG.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "Which E-Commerce platforms do you work with?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "We have experience across the leading e-commerce platforms and architectures, including custom headless and composable commerce builds, Magento/Adobe Commerce, SaaS platform integrations, and open-source e-commerce solutions. We also build custom multi-vendor marketplace platforms and integrate with major retail marketplaces, including Amazon, eBay, Noon, and Flipkart. Platform selection is driven by your specific business requirements, traffic profile, and integration landscape.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "How do you approach AI personalization for retail and E-Commerce?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Our AI personalization practice builds real-time recommendation engines, customer segmentation models, and dynamic content personalization systems using machine learning trained on your first-party and zero-party customer data. We design personalization architectures that are GDPR and CCPA compliant from the outset — collecting the right data through transparent, consent-based mechanisms and using it to deliver individually relevant experiences that improve conversion, basket size, and customer lifetime value.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "Can you help us pass peak trading periods like Black Friday or Diwali without platform failures?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Yes. Peak trading readiness is a core part of our e-commerce engineering discipline. We conduct comprehensive load and stress testing that simulates your highest anticipated concurrent traffic, validate platform behaviour under peak conditions, and address performance bottlenecks before go-live. Our DevOps practice includes auto-scaling infrastructure, CDN optimization, and incident response playbooks specifically designed to ensure your platform performs reliably when trading opportunity is greatest.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "Can you integrate our E-Commerce platform with our ERP, CRM, and warehouse management systems?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Yes. We specialize in complex retail system integration — connecting e-commerce platforms with ERP systems, Salesforce and other CRM platforms, warehouse management, inventory management, POS infrastructure, and third-party logistics providers through secure, well-tested API integration architectures. Our integration practice minimises operational disruption and ensures real-time data consistency across your entire retail technology stack.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "How do you handle PCI-DSS compliance for E-Commerce payment systems?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "PCI-DSS compliance is engineered into our payment and checkout architectures from the outset — covering tokenization, 3DS2 authentication, encrypted data transmission, network segmentation, access controls, and audit logging. We integrate with leading payment gateways and design checkout flows that minimize PCI scope while maximizing conversion, and we support ongoing compliance monitoring and reporting requirements.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        {
+          "question": "How do you support retail and E-Commerce platforms after launch?",
+          "answer": {
+            "root": {
+              "type": "root",
+              "format": "",
+              "indent": 0,
+              "version": 1,
+              "direction": null,
+              "children": [
+                {
+                  "type": "paragraph",
+                  "format": "",
+                  "indent": 0,
+                  "version": 1,
+                  "direction": null,
+                  "textFormat": 0,
+                  "textStyle": "",
+                  "children": [
+                    {
+                      "type": "text",
+                      "text": "Operations, platform updates, QA for new feature releases, trading calendar readiness testing, and continuous optimization. We treat post-launch support as an ongoing partnership — ensuring your retail platform evolves with your business, your customers, and the technology landscape.",
+                      "detail": 0,
+                      "format": 0,
+                      "mode": "normal",
+                      "style": "",
+                      "version": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "blockType": "contactBand",
+      "heading": "Let’s Solve Your Next Technology Challenge",
+      "text": "Talk to our expert and get clarity on your roadmap—no pressure, no obligations.",
+      "thanksText": "Our Australian team will reply within 4 business hours (AEST).",
+      "blockName": "Contact form: Let’s Solve Your Next Technology Challenge"
+    }
+  ]
+}
