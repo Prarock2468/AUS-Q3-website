@@ -18,7 +18,6 @@ next-env.d.ts
 /blob-report/
 
 # env
-.env
 .env*.local
 
 # misc
