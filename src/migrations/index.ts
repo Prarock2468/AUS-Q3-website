@@ -15,6 +15,7 @@ import * as migration_20261118_050959_home_about_block from './20261118_050959_h
 import * as migration_20261118_053526_testimonials_collection from './20261118_053526_testimonials_collection';
 import * as migration_20261118_062218_testimonials_in_slider from './20261118_062218_testimonials_in_slider';
 import * as migration_20261118_063512_page_testimonials_section from './20261118_063512_page_testimonials_section';
+import * as migration_20261119_045215_media_storage_fields from './20261119_045215_media_storage_fields';
 
 export const migrations = [
   {
@@ -100,6 +101,11 @@ export const migrations = [
   {
     up: migration_20261118_063512_page_testimonials_section.up,
     down: migration_20261118_063512_page_testimonials_section.down,
-    name: '20261118_063512_page_testimonials_section'
+    name: '20261118_063512_page_testimonials_section',
+  },
+  {
+    up: migration_20261119_045215_media_storage_fields.up,
+    down: migration_20261119_045215_media_storage_fields.down,
+    name: '20261119_045215_media_storage_fields'
   },
 ];

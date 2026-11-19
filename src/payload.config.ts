@@ -5,6 +5,7 @@ import { formBuilderPlugin } from '@payloadcms/plugin-form-builder'
 import { redirectsPlugin } from '@payloadcms/plugin-redirects'
 import { seoPlugin } from '@payloadcms/plugin-seo'
 import { s3Storage } from '@payloadcms/storage-s3'
+import { vercelBlobStorage } from '@payloadcms/storage-vercel-blob'
 import path from 'path'
 import { buildConfig } from 'payload'
 import sharp from 'sharp'
@@ -123,8 +124,20 @@ export default buildConfig({
         access: { read: loggedIn, update: loggedIn, delete: loggedIn, create: loggedIn },
       },
     }),
+    // Uploads: Vercel Blob when BLOB_READ_WRITE_TOKEN is set (Vercel → Storage → Blob), else S3/R2 when S3_BUCKET is
+    // set, else the local media/ folder (development). Files keep their names, at the root of the store.
+    vercelBlobStorage({
+      enabled: Boolean(process.env.BLOB_READ_WRITE_TOKEN),
+      // Keep the plugin's Media columns (_objectKey, prefix) in the schema even where it is off (local dev), so every
+      // environment has the same database structure and migrations.
+      alwaysInsertFields: true,
+      collections: { media: true },
+      token: process.env.BLOB_READ_WRITE_TOKEN || '',
+      // Browsers upload straight to Blob, so files over Vercel's 4.5 MB request limit (videos) still work.
+      clientUploads: true,
+    }),
     s3Storage({
-      enabled: Boolean(process.env.S3_BUCKET),
+      enabled: Boolean(process.env.S3_BUCKET) && !process.env.BLOB_READ_WRITE_TOKEN,
       collections: { media: true },
       bucket: process.env.S3_BUCKET || '',
       config: {
