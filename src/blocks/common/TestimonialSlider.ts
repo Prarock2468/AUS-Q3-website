@@ -4,7 +4,7 @@ import { adminFieldOnly } from '../../access'
 /**
  * Testimonial slider: the testimonials are edited here. Saved once in Common Component → "Testimonial Slider",
  * each page using it can show only some of them ("Testimonials for this page" on the page's section).
- * Rendered by src/lib/render/common.ts (renderTestimonialSlider).
+ * Rendered by src/components/commonComponent/TestimonialSlider.tsx.
  */
 export const TestimonialSliderBlock: Block = {
   slug: 'testimonialSlider',

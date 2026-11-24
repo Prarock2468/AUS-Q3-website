@@ -19,7 +19,8 @@ export const isDraft = async () => {
 export const getSettings = cache(async (): Promise<SiteSetting> => {
   const payload = await getPayloadClient()
   const [settings, headerMenu] = await Promise.all([
-    payload.findGlobal({ slug: 'site-settings', depth: 0 }),
+    // depth 1: the default social sharing image comes with its address.
+    payload.findGlobal({ slug: 'site-settings', depth: 1 }),
     // Menu links to pages and posts need only their title, address and status.
     payload
       .findGlobal({

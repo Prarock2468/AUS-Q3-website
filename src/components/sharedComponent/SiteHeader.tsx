@@ -1,4 +1,4 @@
-import { headerMenuItems, navState, renderHeader } from '@/lib/render/chrome'
+import { headerMenuItems, navState, renderHeader } from '@/lib/chrome'
 import type { SiteSetting } from '@/payload-types'
 import { HtmlElements } from './HtmlElements'
 import { MobileMenu, Menu } from './Menu'
@@ -38,7 +38,6 @@ export function SiteHeader({ settings, path }: { settings: SiteSetting; path: st
     <header className="site-header" suppressHydrationWarning>
       <div className="wrap">
         <NavLink className="brand" href="/" nav={nav} aria-label="Q3 Technologies">
-          {/* eslint-disable @next/next/no-img-element -- same markup as the original site; the logo is already a small webp */}
           <img
             className="brand__dark"
             src="/assets/images/q3-logo.webp"
@@ -54,7 +53,6 @@ export function SiteHeader({ settings, path }: { settings: SiteSetting; path: st
             height={36}
             aria-hidden="true"
           />
-          {/* eslint-enable @next/next/no-img-element */}
         </NavLink>
         <Menu items={items} nav={nav} />
         <button className="site-header__search" type="button" data-open-search="">

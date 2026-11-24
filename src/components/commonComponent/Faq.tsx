@@ -1,8 +1,8 @@
-import { HtmlElements } from '@/components/sharedComponent'
+import { SalesCard } from '@/components/ui/cards'
 import { getPayloadClient, isDraft } from '@/lib/data'
-import { salesCard } from '@/lib/render/parts'
 import { richTextToHTML } from '@/lib/richtext'
 import type { CommonComponent, Page, SiteSetting } from '@/payload-types'
+import { RichText, hasText } from '@/components/ui/RichText'
 
 /** An FAQ section as stored in the CMS (on a page, or inside a Common Component entry). */
 export type FaqData = Extract<NonNullable<Page['layout']>[number], { blockType: 'faq' }>
@@ -42,14 +42,18 @@ export function Faq({ block, settings, anchorId }: FaqProps) {
       <div className="wrap two-col">
         <div className="sticky" suppressHydrationWarning>
           <h2 id={isStandard ? 'home-faq-title' : undefined}>{block.heading}</h2>
-          {block.intro ? (
+          {hasText(block.intro) ? (
             style === 'home' ? (
-              <p className="faq-intro">{block.intro}</p>
+              <p className="faq-intro">
+                <RichText value={block.intro} />
+              </p>
             ) : (
-              <p style={{ marginTop: 16, maxWidth: '36ch' }}>{block.intro}</p>
+              <p style={{ marginTop: 16, maxWidth: '36ch' }}>
+                <RichText value={block.intro} />
+              </p>
             )
           ) : null}
-          {block.showSalesContact ? <HtmlElements html={salesCard(settings)} /> : null}
+          {block.showSalesContact ? <SalesCard settings={settings} /> : null}
         </div>
         <div className={style === 'home' ? 'faq home-faq' : 'faq'} suppressHydrationWarning>
           {items.map((item, i) => (

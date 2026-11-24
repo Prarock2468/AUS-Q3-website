@@ -180,7 +180,21 @@ export interface Page {
         | {
             heading?: string | null;
             style?: ('home-faq' | 'section' | 'home') | null;
-            intro?: string | null;
+            intro?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
             showSalesContact?: boolean | null;
             /**
              * Published as FAQPage structured data for Google and AI search.
@@ -210,7 +224,21 @@ export interface Page {
           }
         | {
             heading: string;
-            text?: string | null;
+            text?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
             /**
              * Shown after the form is sent.
              */
@@ -223,6 +251,9 @@ export interface Page {
             blockName?: string | null;
             blockType: 'contactBand';
           }
+        | ContactInfoBlock
+        | FormSectionBlock
+        | EnquiryFormBlock
         | {
             /**
              * Edited once in Site settings → Shared sections, and updated on every page that uses it.
@@ -267,6 +298,11 @@ export interface Page {
         | HomeAboutBlock
         | HomeServicesBlock
         | HomeIndustriesBlock
+        | ServicesListBlock
+        | DetailHeroBlock
+        | AboutStoryBlock
+        | ServiceOfferingsBlock
+        | ServiceProcessBlock
       )[]
     | null;
   /**
@@ -326,6 +362,391 @@ export interface Page {
   updatedAt: string;
   createdAt: string;
   _status?: ('draft' | 'published') | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ContactInfoBlock".
+ */
+export interface ContactInfoBlock {
+  heading: string;
+  /**
+   * Tick when this section is the top of the page, like on Contact Us.
+   */
+  isPageHeading?: boolean | null;
+  showBreadcrumb?: boolean | null;
+  text?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  emailLabel?: string | null;
+  /**
+   * Leave empty to hide the email row.
+   */
+  email?: string | null;
+  phonesLabel?: string | null;
+  /**
+   * Leave empty to hide the phone row.
+   */
+  phones?:
+    | {
+        number: string;
+        icon?: ('whatsapp' | 'in' | 'us' | 'au' | 'phone' | 'none') | null;
+        id?: string | null;
+      }[]
+    | null;
+  nextHeading?: string | null;
+  /**
+   * Each step gets a tick. Leave empty to hide this box.
+   */
+  nextSteps?:
+    | {
+        text: string;
+        id?: string | null;
+      }[]
+    | null;
+  /**
+   * Optional id, for example "contact", so links can jump here.
+   */
+  anchorId?: string | null;
+  id?: string | null;
+  blockName?: string | null;
+  blockType: 'contactInfo';
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "FormSectionBlock".
+ */
+export interface FormSectionBlock {
+  /**
+   * Build and edit forms in Leads → Forms.
+   */
+  form: number | Form;
+  /**
+   * Optional. Only shown when the form is not next to a Contact info section.
+   */
+  heading?: string | null;
+  /**
+   * Optional. Only shown when the form is not next to a Contact info section.
+   */
+  text?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  /**
+   * Optional id, for example "enquiry", so links can jump here.
+   */
+  anchorId?: string | null;
+  id?: string | null;
+  blockName?: string | null;
+  blockType: 'formSection';
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "forms".
+ */
+export interface Form {
+  id: number;
+  title: string;
+  fields?:
+    | (
+        | {
+            name: string;
+            label?: string | null;
+            width?: number | null;
+            required?: boolean | null;
+            defaultValue?: boolean | null;
+            /**
+             * Shown when this field is left empty or filled in wrongly. Empty: a standard message.
+             */
+            errorMessage?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'checkbox';
+          }
+        | {
+            name: string;
+            label?: string | null;
+            width?: number | null;
+            required?: boolean | null;
+            placeholder?: string | null;
+            /**
+             * Shown when this field is left empty or filled in wrongly. Empty: a standard message.
+             */
+            errorMessage?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'email';
+          }
+        | {
+            message?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'message';
+          }
+        | {
+            name: string;
+            label?: string | null;
+            width?: number | null;
+            defaultValue?: number | null;
+            required?: boolean | null;
+            placeholder?: string | null;
+            /**
+             * Shown when this field is left empty or filled in wrongly. Empty: a standard message.
+             */
+            errorMessage?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'number';
+          }
+        | {
+            name: string;
+            label?: string | null;
+            width?: number | null;
+            defaultValue?: string | null;
+            placeholder?: string | null;
+            options?:
+              | {
+                  label: string;
+                  value: string;
+                  id?: string | null;
+                }[]
+              | null;
+            required?: boolean | null;
+            /**
+             * Shown when this field is left empty or filled in wrongly. Empty: a standard message.
+             */
+            errorMessage?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'select';
+          }
+        | {
+            name: string;
+            label?: string | null;
+            width?: number | null;
+            defaultValue?: string | null;
+            required?: boolean | null;
+            placeholder?: string | null;
+            /**
+             * Shown when this field is left empty or filled in wrongly. Empty: a standard message.
+             */
+            errorMessage?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'text';
+          }
+        | {
+            name: string;
+            label?: string | null;
+            width?: number | null;
+            defaultValue?: string | null;
+            required?: boolean | null;
+            placeholder?: string | null;
+            /**
+             * Shown when this field is left empty or filled in wrongly. Empty: a standard message.
+             */
+            errorMessage?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'textarea';
+          }
+        | {
+            /**
+             * Short id, no spaces, e.g. phone.
+             */
+            name: string;
+            label?: string | null;
+            /**
+             * Percent of the row: 100, or 50 to put two fields side by side.
+             */
+            width?: number | null;
+            required?: boolean | null;
+            placeholder?: string | null;
+            /**
+             * Shown when this field is left empty or filled in wrongly. Empty: a standard message.
+             */
+            errorMessage?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'phone';
+          }
+        | {
+            name: string;
+            label?: string | null;
+            width?: number | null;
+            required?: boolean | null;
+            defaultValue?: string | null;
+            /**
+             * Shown when this field is left empty or filled in wrongly. Empty: a standard message.
+             */
+            errorMessage?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'date';
+          }
+        | {
+            /**
+             * Short id, no spaces, e.g. phone.
+             */
+            name: string;
+            label?: string | null;
+            /**
+             * Percent of the row: 100, or 50 to put two fields side by side.
+             */
+            width?: number | null;
+            required?: boolean | null;
+            /**
+             * Comma-separated, e.g. .pdf,.docx
+             */
+            accept?: string | null;
+            maxSizeMb?: number | null;
+            /**
+             * Shown when this field is left empty or filled in wrongly. Empty: a standard message.
+             */
+            errorMessage?: string | null;
+            id?: string | null;
+            blockName?: string | null;
+            blockType: 'file';
+          }
+      )[]
+    | null;
+  submitButtonLabel?: string | null;
+  confirmationType?: ('message' | 'redirect') | null;
+  confirmationMessage?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  redirect?: {
+    url: string;
+  };
+  emails?:
+    | {
+        emailTo?: string | null;
+        cc?: string | null;
+        bcc?: string | null;
+        replyTo?: string | null;
+        emailFrom?: string | null;
+        subject: string;
+        message?: {
+          root: {
+            type: string;
+            children: {
+              type: any;
+              version: number;
+              [k: string]: unknown;
+            }[];
+            direction: ('ltr' | 'rtl') | null;
+            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+            indent: number;
+            version: number;
+          };
+          [k: string]: unknown;
+        } | null;
+        id?: string | null;
+      }[]
+    | null;
+  /**
+   * Separate several addresses with commas. Empty: Site settings → Email → "Send enquiries to".
+   */
+  notifyTo?: string | null;
+  autoReply?: boolean | null;
+  /**
+   * The message under it is the "Confirmation Message" above.
+   */
+  thanksHeading?: string | null;
+  showConsent?: boolean | null;
+  privacyUrl?: string | null;
+  showCaptcha?: boolean | null;
+  secureNote?: string | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "EnquiryFormBlock".
+ */
+export interface EnquiryFormBlock {
+  /**
+   * Optional. Only shown when the form is not next to a Contact info section.
+   */
+  heading?: string | null;
+  /**
+   * Optional. Only shown when the form is not next to a Contact info section.
+   */
+  text?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  submitLabel?: string | null;
+  privacyUrl?: string | null;
+  secureNote?: string | null;
+  thanksHeading?: string | null;
+  thanksText?: string | null;
+  /**
+   * Optional id, for example "enquiry", so links can jump here.
+   */
+  anchorId?: string | null;
+  id?: string | null;
+  blockName?: string | null;
+  blockType: 'enquiryForm';
 }
 /**
  * Blog articles. Each entry becomes a page at /insights/<slug>.
@@ -813,7 +1234,21 @@ export interface CommonComponent {
         | {
             heading?: string | null;
             style?: ('home-faq' | 'section' | 'home') | null;
-            intro?: string | null;
+            intro?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
             showSalesContact?: boolean | null;
             /**
              * Published as FAQPage structured data for Google and AI search.
@@ -843,7 +1278,21 @@ export interface CommonComponent {
           }
         | {
             heading: string;
-            text?: string | null;
+            text?: {
+              root: {
+                type: string;
+                children: {
+                  type: any;
+                  version: number;
+                  [k: string]: unknown;
+                }[];
+                direction: ('ltr' | 'rtl') | null;
+                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+                indent: number;
+                version: number;
+              };
+              [k: string]: unknown;
+            } | null;
             /**
              * Shown after the form is sent.
              */
@@ -856,6 +1305,9 @@ export interface CommonComponent {
             blockName?: string | null;
             blockType: 'contactBand';
           }
+        | ContactInfoBlock
+        | FormSectionBlock
+        | EnquiryFormBlock
         | {
             /**
              * Edited once in Site settings → Shared sections, and updated on every page that uses it.
@@ -967,7 +1419,21 @@ export interface HomeHeroBlock {
    * The page’s main heading (h1).
    */
   heading: string;
-  intro?: string | null;
+  intro?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
   buttons?:
     | {
         label: string;
@@ -1005,6 +1471,9 @@ export interface HomeAboutBlock {
    * Plain text. Each word lights up in turn as the visitor scrolls.
    */
   statement: string;
+  /**
+   * Shown on the Home page only (the About page design has no buttons).
+   */
   buttons?:
     | {
         label: string;
@@ -1057,7 +1526,21 @@ export interface HomeServicesBlock {
    */
   services: {
     title: string;
-    description: string;
+    description: {
+      root: {
+        type: string;
+        children: {
+          type: any;
+          version: number;
+          [k: string]: unknown;
+        }[];
+        direction: ('ltr' | 'rtl') | null;
+        format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+        indent: number;
+        version: number;
+      };
+      [k: string]: unknown;
+    };
     /**
      * For example "Explore AI Services".
      */
@@ -1102,7 +1585,21 @@ export interface HomeIndustriesBlock {
      * Tab label and heading, for example "Education".
      */
     title: string;
-    description: string;
+    description: {
+      root: {
+        type: string;
+        children: {
+          type: any;
+          version: number;
+          [k: string]: unknown;
+        }[];
+        direction: ('ltr' | 'rtl') | null;
+        format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+        indent: number;
+        version: number;
+      };
+      [k: string]: unknown;
+    };
     linkLabel?: string | null;
     /**
      * For example /industries/education. Leave empty to hide the button.
@@ -1117,6 +1614,279 @@ export interface HomeIndustriesBlock {
   id?: string | null;
   blockName?: string | null;
   blockType: 'homeIndustries';
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ServicesListBlock".
+ */
+export interface ServicesListBlock {
+  heading: string;
+  /**
+   * Numbered 01, 02… in this order. The first one starts open.
+   */
+  services: {
+    title: string;
+    description: {
+      root: {
+        type: string;
+        children: {
+          type: any;
+          version: number;
+          [k: string]: unknown;
+        }[];
+        direction: ('ltr' | 'rtl') | null;
+        format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+        indent: number;
+        version: number;
+      };
+      [k: string]: unknown;
+    };
+    /**
+     * Portrait, about 760 × 1086. Shown in the open service and in the image column.
+     */
+    image: number | Media;
+    subServices?:
+      | {
+          label: string;
+          /**
+           * Leave empty for a plain pill.
+           */
+          url?: string | null;
+          id?: string | null;
+        }[]
+      | null;
+    buttonLabel?: string | null;
+    /**
+     * Leave empty to hide the button.
+     */
+    buttonLink?: string | null;
+    id?: string | null;
+  }[];
+  id?: string | null;
+  blockName?: string | null;
+  blockType: 'servicesList';
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "DetailHeroBlock".
+ */
+export interface DetailHeroBlock {
+  /**
+   * The page heading (H1). Press Enter to start a new line.
+   */
+  title: string;
+  /**
+   * Last item of the breadcrumb ("Home / …"). Leave empty to use the title. Usually a shorter name, e.g. Education or Services.
+   */
+  breadcrumbLabel?: string | null;
+  description: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  };
+  /**
+   * Services page: background photo, about 1920 × 1080 (leave empty for the default). Industry page: about 1344 × 600. Service page: about 1440 × 880, beside the text. Set the image’s Alt text in Media.
+   */
+  image?: (number | null) | Media;
+  /**
+   * Service pages only (the Industry page design has no stats).
+   */
+  stats?:
+    | {
+        /**
+         * e.g. 2000
+         */
+        value: string;
+        /**
+         * e.g. + or %
+         */
+        suffix?: string | null;
+        /**
+         * e.g. Projects Deployed
+         */
+        label: string;
+        id?: string | null;
+      }[]
+    | null;
+  buttons?:
+    | {
+        label: string;
+        link: string;
+        style?: ('primary' | 'outline') | null;
+        /**
+         * Optional analytics name (data-cta), e.g. hero_services.
+         */
+        trackingId?: string | null;
+        id?: string | null;
+      }[]
+    | null;
+  id?: string | null;
+  blockName?: string | null;
+  blockType: 'detailHero';
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "AboutStoryBlock".
+ */
+export interface AboutStoryBlock {
+  eyebrow?: string | null;
+  heading: string;
+  /**
+   * Shown in this order, left to right. Each year also becomes a button under the cards.
+   */
+  milestones: {
+    /**
+     * e.g. 1996
+     */
+    year: string;
+    title: string;
+    description: {
+      root: {
+        type: string;
+        children: {
+          type: any;
+          version: number;
+          [k: string]: unknown;
+        }[];
+        direction: ('ltr' | 'rtl') | null;
+        format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+        indent: number;
+        version: number;
+      };
+      [k: string]: unknown;
+    };
+    /**
+     * Landscape, about 1000 × 666 (WebP or JPG).
+     */
+    image: number | Media;
+    id?: string | null;
+  }[];
+  id?: string | null;
+  blockName?: string | null;
+  blockType: 'aboutStory';
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ServiceOfferingsBlock".
+ */
+export interface ServiceOfferingsBlock {
+  /**
+   * Press Enter to start a new line.
+   */
+  heading: string;
+  intro?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  /**
+   * Numbered 01, 02… in this order. The first one starts open.
+   */
+  items: {
+    title: string;
+    description: {
+      root: {
+        type: string;
+        children: {
+          type: any;
+          version: number;
+          [k: string]: unknown;
+        }[];
+        direction: ('ltr' | 'rtl') | null;
+        format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+        indent: number;
+        version: number;
+      };
+      [k: string]: unknown;
+    };
+    buttonLabel?: string | null;
+    /**
+     * Leave empty to hide the button.
+     */
+    buttonLink?: string | null;
+    /**
+     * Background of the open item, about 600 × 374. Leave empty for the default.
+     */
+    image?: (number | null) | Media;
+    id?: string | null;
+  }[];
+  id?: string | null;
+  blockName?: string | null;
+  blockType: 'serviceOfferings';
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ServiceProcessBlock".
+ */
+export interface ServiceProcessBlock {
+  heading: string;
+  intro?: {
+    root: {
+      type: string;
+      children: {
+        type: any;
+        version: number;
+        [k: string]: unknown;
+      }[];
+      direction: ('ltr' | 'rtl') | null;
+      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+      indent: number;
+      version: number;
+    };
+    [k: string]: unknown;
+  } | null;
+  /**
+   * Numbered 1, 2… in this order.
+   */
+  steps: {
+    /**
+     * Press Enter for a line break (shown on large screens only).
+     */
+    title: string;
+    description: {
+      root: {
+        type: string;
+        children: {
+          type: any;
+          version: number;
+          [k: string]: unknown;
+        }[];
+        direction: ('ltr' | 'rtl') | null;
+        format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
+        indent: number;
+        version: number;
+      };
+      [k: string]: unknown;
+    };
+    /**
+     * Shown when the visitor hovers the step, about 460 × 400.
+     */
+    image: number | Media;
+    id?: string | null;
+  }[];
+  id?: string | null;
+  blockName?: string | null;
+  blockType: 'serviceProcess';
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -1175,171 +1945,6 @@ export interface Redirect {
         } | null);
     url?: string | null;
   };
-  updatedAt: string;
-  createdAt: string;
-}
-/**
- * This interface was referenced by `Config`'s JSON-Schema
- * via the `definition` "forms".
- */
-export interface Form {
-  id: number;
-  title: string;
-  fields?:
-    | (
-        | {
-            name: string;
-            label?: string | null;
-            width?: number | null;
-            required?: boolean | null;
-            defaultValue?: boolean | null;
-            id?: string | null;
-            blockName?: string | null;
-            blockType: 'checkbox';
-          }
-        | {
-            name: string;
-            label?: string | null;
-            width?: number | null;
-            required?: boolean | null;
-            id?: string | null;
-            blockName?: string | null;
-            blockType: 'country';
-          }
-        | {
-            name: string;
-            label?: string | null;
-            width?: number | null;
-            required?: boolean | null;
-            id?: string | null;
-            blockName?: string | null;
-            blockType: 'email';
-          }
-        | {
-            message?: {
-              root: {
-                type: string;
-                children: {
-                  type: any;
-                  version: number;
-                  [k: string]: unknown;
-                }[];
-                direction: ('ltr' | 'rtl') | null;
-                format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
-                indent: number;
-                version: number;
-              };
-              [k: string]: unknown;
-            } | null;
-            id?: string | null;
-            blockName?: string | null;
-            blockType: 'message';
-          }
-        | {
-            name: string;
-            label?: string | null;
-            width?: number | null;
-            defaultValue?: number | null;
-            required?: boolean | null;
-            id?: string | null;
-            blockName?: string | null;
-            blockType: 'number';
-          }
-        | {
-            name: string;
-            label?: string | null;
-            width?: number | null;
-            defaultValue?: string | null;
-            placeholder?: string | null;
-            options?:
-              | {
-                  label: string;
-                  value: string;
-                  id?: string | null;
-                }[]
-              | null;
-            required?: boolean | null;
-            id?: string | null;
-            blockName?: string | null;
-            blockType: 'select';
-          }
-        | {
-            name: string;
-            label?: string | null;
-            width?: number | null;
-            required?: boolean | null;
-            id?: string | null;
-            blockName?: string | null;
-            blockType: 'state';
-          }
-        | {
-            name: string;
-            label?: string | null;
-            width?: number | null;
-            defaultValue?: string | null;
-            required?: boolean | null;
-            id?: string | null;
-            blockName?: string | null;
-            blockType: 'text';
-          }
-        | {
-            name: string;
-            label?: string | null;
-            width?: number | null;
-            defaultValue?: string | null;
-            required?: boolean | null;
-            id?: string | null;
-            blockName?: string | null;
-            blockType: 'textarea';
-          }
-      )[]
-    | null;
-  submitButtonLabel?: string | null;
-  confirmationType?: ('message' | 'redirect') | null;
-  confirmationMessage?: {
-    root: {
-      type: string;
-      children: {
-        type: any;
-        version: number;
-        [k: string]: unknown;
-      }[];
-      direction: ('ltr' | 'rtl') | null;
-      format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
-      indent: number;
-      version: number;
-    };
-    [k: string]: unknown;
-  } | null;
-  redirect?: {
-    url: string;
-  };
-  emails?:
-    | {
-        emailTo?: string | null;
-        cc?: string | null;
-        bcc?: string | null;
-        replyTo?: string | null;
-        emailFrom?: string | null;
-        subject: string;
-        message?: {
-          root: {
-            type: string;
-            children: {
-              type: any;
-              version: number;
-              [k: string]: unknown;
-            }[];
-            direction: ('ltr' | 'rtl') | null;
-            format: 'left' | 'start' | 'center' | 'right' | 'end' | 'justify' | '';
-            indent: number;
-            version: number;
-          };
-          [k: string]: unknown;
-        } | null;
-        id?: string | null;
-      }[]
-    | null;
   updatedAt: string;
   createdAt: string;
 }
@@ -1602,6 +2207,9 @@ export interface PagesSelect<T extends boolean = true> {
               id?: T;
               blockName?: T;
             };
+        contactInfo?: T | ContactInfoBlockSelect<T>;
+        formSection?: T | FormSectionBlockSelect<T>;
+        enquiryForm?: T | EnquiryFormBlockSelect<T>;
         sharedSection?:
           | T
           | {
@@ -1641,6 +2249,11 @@ export interface PagesSelect<T extends boolean = true> {
         homeAbout?: T | HomeAboutBlockSelect<T>;
         homeServices?: T | HomeServicesBlockSelect<T>;
         homeIndustries?: T | HomeIndustriesBlockSelect<T>;
+        servicesList?: T | ServicesListBlockSelect<T>;
+        detailHero?: T | DetailHeroBlockSelect<T>;
+        aboutStory?: T | AboutStoryBlockSelect<T>;
+        serviceOfferings?: T | ServiceOfferingsBlockSelect<T>;
+        serviceProcess?: T | ServiceProcessBlockSelect<T>;
       };
   searchSection?: T;
   searchDescription?: T;
@@ -1668,6 +2281,64 @@ export interface PagesSelect<T extends boolean = true> {
   updatedAt?: T;
   createdAt?: T;
   _status?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ContactInfoBlock_select".
+ */
+export interface ContactInfoBlockSelect<T extends boolean = true> {
+  heading?: T;
+  isPageHeading?: T;
+  showBreadcrumb?: T;
+  text?: T;
+  emailLabel?: T;
+  email?: T;
+  phonesLabel?: T;
+  phones?:
+    | T
+    | {
+        number?: T;
+        icon?: T;
+        id?: T;
+      };
+  nextHeading?: T;
+  nextSteps?:
+    | T
+    | {
+        text?: T;
+        id?: T;
+      };
+  anchorId?: T;
+  id?: T;
+  blockName?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "FormSectionBlock_select".
+ */
+export interface FormSectionBlockSelect<T extends boolean = true> {
+  form?: T;
+  heading?: T;
+  text?: T;
+  anchorId?: T;
+  id?: T;
+  blockName?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "EnquiryFormBlock_select".
+ */
+export interface EnquiryFormBlockSelect<T extends boolean = true> {
+  heading?: T;
+  text?: T;
+  submitLabel?: T;
+  privacyUrl?: T;
+  secureNote?: T;
+  thanksHeading?: T;
+  thanksText?: T;
+  anchorId?: T;
+  id?: T;
+  blockName?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
@@ -1828,6 +2499,118 @@ export interface HomeIndustriesBlockSelect<T extends boolean = true> {
         description?: T;
         linkLabel?: T;
         link?: T;
+        image?: T;
+        id?: T;
+      };
+  id?: T;
+  blockName?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ServicesListBlock_select".
+ */
+export interface ServicesListBlockSelect<T extends boolean = true> {
+  heading?: T;
+  services?:
+    | T
+    | {
+        title?: T;
+        description?: T;
+        image?: T;
+        subServices?:
+          | T
+          | {
+              label?: T;
+              url?: T;
+              id?: T;
+            };
+        buttonLabel?: T;
+        buttonLink?: T;
+        id?: T;
+      };
+  id?: T;
+  blockName?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "DetailHeroBlock_select".
+ */
+export interface DetailHeroBlockSelect<T extends boolean = true> {
+  title?: T;
+  breadcrumbLabel?: T;
+  description?: T;
+  image?: T;
+  stats?:
+    | T
+    | {
+        value?: T;
+        suffix?: T;
+        label?: T;
+        id?: T;
+      };
+  buttons?:
+    | T
+    | {
+        label?: T;
+        link?: T;
+        style?: T;
+        trackingId?: T;
+        id?: T;
+      };
+  id?: T;
+  blockName?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "AboutStoryBlock_select".
+ */
+export interface AboutStoryBlockSelect<T extends boolean = true> {
+  eyebrow?: T;
+  heading?: T;
+  milestones?:
+    | T
+    | {
+        year?: T;
+        title?: T;
+        description?: T;
+        image?: T;
+        id?: T;
+      };
+  id?: T;
+  blockName?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ServiceOfferingsBlock_select".
+ */
+export interface ServiceOfferingsBlockSelect<T extends boolean = true> {
+  heading?: T;
+  intro?: T;
+  items?:
+    | T
+    | {
+        title?: T;
+        description?: T;
+        buttonLabel?: T;
+        buttonLink?: T;
+        image?: T;
+        id?: T;
+      };
+  id?: T;
+  blockName?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "ServiceProcessBlock_select".
+ */
+export interface ServiceProcessBlockSelect<T extends boolean = true> {
+  heading?: T;
+  intro?: T;
+  steps?:
+    | T
+    | {
+        title?: T;
+        description?: T;
         image?: T;
         id?: T;
       };
@@ -1999,6 +2782,9 @@ export interface CommonComponentSelect<T extends boolean = true> {
               id?: T;
               blockName?: T;
             };
+        contactInfo?: T | ContactInfoBlockSelect<T>;
+        formSection?: T | FormSectionBlockSelect<T>;
+        enquiryForm?: T | EnquiryFormBlockSelect<T>;
         sharedSection?:
           | T
           | {
@@ -2161,16 +2947,7 @@ export interface FormsSelect<T extends boolean = true> {
               width?: T;
               required?: T;
               defaultValue?: T;
-              id?: T;
-              blockName?: T;
-            };
-        country?:
-          | T
-          | {
-              name?: T;
-              label?: T;
-              width?: T;
-              required?: T;
+              errorMessage?: T;
               id?: T;
               blockName?: T;
             };
@@ -2181,6 +2958,8 @@ export interface FormsSelect<T extends boolean = true> {
               label?: T;
               width?: T;
               required?: T;
+              placeholder?: T;
+              errorMessage?: T;
               id?: T;
               blockName?: T;
             };
@@ -2199,6 +2978,8 @@ export interface FormsSelect<T extends boolean = true> {
               width?: T;
               defaultValue?: T;
               required?: T;
+              placeholder?: T;
+              errorMessage?: T;
               id?: T;
               blockName?: T;
             };
@@ -2218,16 +2999,7 @@ export interface FormsSelect<T extends boolean = true> {
                     id?: T;
                   };
               required?: T;
-              id?: T;
-              blockName?: T;
-            };
-        state?:
-          | T
-          | {
-              name?: T;
-              label?: T;
-              width?: T;
-              required?: T;
+              errorMessage?: T;
               id?: T;
               blockName?: T;
             };
@@ -2239,6 +3011,8 @@ export interface FormsSelect<T extends boolean = true> {
               width?: T;
               defaultValue?: T;
               required?: T;
+              placeholder?: T;
+              errorMessage?: T;
               id?: T;
               blockName?: T;
             };
@@ -2250,6 +3024,45 @@ export interface FormsSelect<T extends boolean = true> {
               width?: T;
               defaultValue?: T;
               required?: T;
+              placeholder?: T;
+              errorMessage?: T;
+              id?: T;
+              blockName?: T;
+            };
+        phone?:
+          | T
+          | {
+              name?: T;
+              label?: T;
+              width?: T;
+              required?: T;
+              placeholder?: T;
+              errorMessage?: T;
+              id?: T;
+              blockName?: T;
+            };
+        date?:
+          | T
+          | {
+              name?: T;
+              label?: T;
+              width?: T;
+              required?: T;
+              defaultValue?: T;
+              errorMessage?: T;
+              id?: T;
+              blockName?: T;
+            };
+        file?:
+          | T
+          | {
+              name?: T;
+              label?: T;
+              width?: T;
+              required?: T;
+              accept?: T;
+              maxSizeMb?: T;
+              errorMessage?: T;
               id?: T;
               blockName?: T;
             };
@@ -2274,6 +3087,13 @@ export interface FormsSelect<T extends boolean = true> {
         message?: T;
         id?: T;
       };
+  notifyTo?: T;
+  autoReply?: T;
+  thanksHeading?: T;
+  showConsent?: T;
+  privacyUrl?: T;
+  showCaptcha?: T;
+  secureNote?: T;
   updatedAt?: T;
   createdAt?: T;
 }
@@ -2450,12 +3270,19 @@ export interface SiteSetting {
   orgName?: string | null;
   telephone?: string | null;
   email?: string | null;
+  /**
+   * Company pages elsewhere (LinkedIn, the global site…). Shown to Google as the same organisation.
+   */
   sameAs?:
     | {
         url: string;
         id?: string | null;
       }[]
     | null;
+  /**
+   * Shown when a page is shared (WhatsApp, LinkedIn, Facebook…) and has no image of its own. Each page can set its own in its SEO tab → Meta image. Best size 1200 × 630.
+   */
+  defaultShareImage?: (number | null) | Media;
   defaultOgImage?: string | null;
   salesName?: string | null;
   salesRole?: string | null;
@@ -2508,6 +3335,43 @@ export interface SiteSetting {
         id?: string | null;
       }[]
     | null;
+  formEmails?: {
+    /**
+     * Who receives each enquiry, with any attached file. Separate several addresses with commas. Leave empty to use the server setting (LEADS_NOTIFY_TO).
+     */
+    notifyTo?: string | null;
+    autoReply?: boolean | null;
+    thanksSubject?: string | null;
+    /**
+     * Goes after "Hi {their name},". Leave a blank line between paragraphs. Leave empty for the standard message.
+     */
+    thanksMessage?: string | null;
+    signOffName?: string | null;
+    /**
+     * Shown under "Regards"; replies go here. Empty: the server setting (SALES_EMAIL).
+     */
+    signOffEmail?: string | null;
+    /**
+     * Optional. Fill in all of host, username and password to send form emails through this mail server; otherwise the server settings (SMTP_*) are used. Gmail: host smtp.gmail.com, port 465, your Gmail address, and an App Password (myaccount.google.com/apppasswords). Admins only.
+     */
+    smtp?: {
+      host?: string | null;
+      /**
+       * 465 (SSL) or 587
+       */
+      port?: number | null;
+      username?: string | null;
+      /**
+       * Saved encrypted and never shown again. Type a new one to replace it; clear the field to remove it.
+       */
+      password?: string | null;
+      /**
+       * Empty: the username. Gmail only sends from its own address.
+       */
+      fromAddress?: string | null;
+      fromName?: string | null;
+    };
+  };
   /**
    * For example GTM-XXXXXXX. GA4 and Microsoft Clarity are configured inside GTM.
    */
@@ -2559,6 +3423,7 @@ export interface SiteSettingsSelect<T extends boolean = true> {
         url?: T;
         id?: T;
       };
+  defaultShareImage?: T;
   defaultOgImage?: T;
   salesName?: T;
   salesRole?: T;
@@ -2583,6 +3448,26 @@ export interface SiteSettingsSelect<T extends boolean = true> {
         tag?: T;
         keys?: T;
         id?: T;
+      };
+  formEmails?:
+    | T
+    | {
+        notifyTo?: T;
+        autoReply?: T;
+        thanksSubject?: T;
+        thanksMessage?: T;
+        signOffName?: T;
+        signOffEmail?: T;
+        smtp?:
+          | T
+          | {
+              host?: T;
+              port?: T;
+              username?: T;
+              password?: T;
+              fromAddress?: T;
+              fromName?: T;
+            };
       };
   gtmId?: T;
   updatedAt?: T;

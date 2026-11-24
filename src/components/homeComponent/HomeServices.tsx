@@ -1,6 +1,7 @@
-import { media } from '@/lib/render/parts'
-import { ArrowIcon, isExternal } from './icons'
-import type { SectionProps } from './types'
+import { media } from '@/lib/media'
+import { ArrowIcon, isExternal } from '../ui/icons'
+import type { SectionProps } from '../sections/types'
+import { RichText } from '../ui/RichText'
 
 const HeadArrow = () => (
   <svg
@@ -62,7 +63,9 @@ export function HomeServices({ block }: SectionProps<'homeServices'>) {
                     >
                       <div className="wd-in">
                         <div className="wd-text">
-                          <p>{s.description}</p>
+                          <p>
+                            <RichText value={s.description} />
+                          </p>
                           {s.link ? (
                             <a className="wd-link" href={s.link}>
                               {s.linkLabel || `Explore ${s.title}`} <ArrowIcon />
@@ -96,7 +99,6 @@ export function HomeServices({ block }: SectionProps<'homeServices'>) {
                 const img = media(s.image)
                 if (!img?.url) return null
                 return (
-                  // eslint-disable-next-line @next/next/no-img-element -- same markup as the original site (the script swaps these)
                   <img
                     key={s.id || i}
                     className={i === 0 ? 'wd-img is-on' : 'wd-img'}

@@ -1,6 +1,7 @@
-import { media } from '@/lib/render/parts'
-import { ArrowIcon, isExternal } from './icons'
-import type { SectionProps } from './types'
+import { media } from '@/lib/media'
+import { ArrowIcon, isExternal } from '../ui/icons'
+import type { SectionProps } from '../sections/types'
+import { RichText } from '../ui/RichText'
 
 /**
  * "Industries We Serve" on the home page (section.industries-section), from the "Industries we serve (home page)"
@@ -64,7 +65,6 @@ export function HomeIndustries({ block }: SectionProps<'homeIndustries'>) {
                     >
                       <div className="slide-media">
                         {img?.url ? (
-                          // eslint-disable-next-line @next/next/no-img-element -- same markup as the original site
                           <img
                             src={img.url}
                             srcSet={srcSet}
@@ -79,7 +79,9 @@ export function HomeIndustries({ block }: SectionProps<'homeIndustries'>) {
                       </div>
                       <div className="slide-copy">
                         <h3>{ind.title}</h3>
-                        <p>{ind.description}</p>
+                        <p>
+                          <RichText value={ind.description} />
+                        </p>
                         {ind.link ? (
                           <a
                             className="btn btn-outline"

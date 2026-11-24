@@ -14,6 +14,7 @@ import path from 'path'
 import * as cheerio from 'cheerio'
 import { getPayload } from 'payload'
 import config from '../../payload.config'
+import { textToRichText } from '../../fields/richTextValue'
 import type { Page } from '../../payload-types'
 
 type Section = NonNullable<Page['layout']>[number]
@@ -90,7 +91,7 @@ const block: HomeHero = {
       return { icon: icon || null, highlight, text: $li.text().trim() || null }
     }),
   heading,
-  intro: sec.find('.lede').text().trim() || null,
+  intro: textToRichText(sec.find('.lede').text()),
   buttons: sec
     .find('.actions a')
     .toArray()

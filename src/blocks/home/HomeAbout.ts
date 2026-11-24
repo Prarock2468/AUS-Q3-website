@@ -2,13 +2,14 @@ import type { Block } from 'payload'
 import { buttonsField } from './fields'
 
 /**
- * "About Q3" on the home page: a statement that lights up word by word on scroll, buttons, and stat cards.
- * Rendered by components/homeComponent/HomeAbout.tsx.
+ * "About us (statement)": a statement that lights up word by word on scroll, buttons, and stat cards. Offered on the
+ * Home and About templates, each in its own design: Home → components/homeComponent/HomeAbout.tsx ("About Q3"),
+ * About → components/sections/AboutSections.tsx ("Q3 at a glance", no buttons).
  */
 export const HomeAboutBlock: Block = {
   slug: 'homeAbout',
   interfaceName: 'HomeAboutBlock',
-  labels: { singular: 'About us (home page)', plural: 'About us (home page)' },
+  labels: { singular: 'About us (statement)', plural: 'About us (statement)' },
   fields: [
     {
       name: 'statement',
@@ -16,7 +17,7 @@ export const HomeAboutBlock: Block = {
       required: true,
       admin: { description: 'Plain text. Each word lights up in turn as the visitor scrolls.' },
     },
-    buttonsField(),
+    { ...buttonsField(), admin: { description: 'Shown on the Home page only (the About page design has no buttons).' } },
     {
       name: 'stats',
       type: 'array',

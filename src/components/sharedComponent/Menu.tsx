@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react'
-import type { MenuItem } from '@/lib/render/chrome'
+import type { MenuItem } from '@/lib/chrome'
 import { MobileAccordion } from './MobileAccordion'
 import { NavLink, type NavState } from './NavLink'
 import { MobileSubMenu, SubMenu } from './SubMenu'

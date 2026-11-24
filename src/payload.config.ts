@@ -11,7 +11,9 @@ import { buildConfig } from 'payload'
 import sharp from 'sharp'
 import { fileURLToPath } from 'url'
 
-import { loggedIn } from './access'
+import { adminsOnly, loggedIn } from './access'
+import { formFieldTypes } from './forms/fieldBlocks'
+import { formSettingsFields } from './forms/formSettings'
 import { Authors } from './collections/Authors'
 import { CaseStudies } from './collections/CaseStudies'
 import { CommonComponents } from './collections/CommonComponents'
@@ -115,8 +117,14 @@ export default buildConfig({
       },
     }),
     formBuilderPlugin({
-      fields: { payment: false },
-      formOverrides: { admin: { group: 'Leads' } },
+      // Field types for forms shown on the website (src/forms/fieldBlocks.ts); forms go on pages with the "Form" section.
+      fields: formFieldTypes,
+      formOverrides: {
+        admin: { group: 'Leads' },
+        // Only admins build or change forms; the website reads them on the server.
+        access: { read: loggedIn, create: adminsOnly, update: adminsOnly, delete: adminsOnly },
+        fields: formSettingsFields,
+      },
       formSubmissionOverrides: {
         admin: { group: 'Leads', defaultColumns: ['form', 'createdAt'] },
         // Public enquiries go through /forms/enquiry (validation, spam checks, rate limit), which writes with the

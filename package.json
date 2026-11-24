@@ -29,6 +29,17 @@
     "seed:home-hero": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/home-hero/run.ts",
     "seed:home-about": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/home-about/run.ts",
     "seed:testimonials": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/testimonials/run.ts",
+    "seed:enquiry-page": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/enquiry-page/run.ts",
+    "seed:contact-form": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/contact-form/run.ts",
+    "seed:thank-you": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/thank-you/run.ts",
+    "seed:share-image": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/share-image/run.ts",
+    "seed:services-list": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/services-list/run.ts",
+    "seed:about-statement": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/about-statement/run.ts",
+    "seed:about-story": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/about-story/run.ts",
+    "seed:detail-hero": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/detail-hero/run.ts",
+    "seed:service-sections": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/service-sections/run.ts",
+    "seed:contact-form-builder": "cross-env NODE_OPTIONS=--no-deprecation tsx src/seed/contact-form-builder/run.ts",
+    "test:email": "tsx src/seed/test-email.ts",
     "test:e2e": "playwright test"
   },
   "dependencies": {

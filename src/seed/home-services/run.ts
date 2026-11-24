@@ -14,6 +14,7 @@ import path from 'path'
 import * as cheerio from 'cheerio'
 import { getPayload } from 'payload'
 import config from '../../payload.config'
+import { textToRichText } from '../../fields/richTextValue'
 import type { Page } from '../../payload-types'
 
 type Section = NonNullable<Page['layout']>[number]
@@ -75,7 +76,7 @@ for (const [i, li] of items.entries()) {
   if (img.attr('data-wd-img') !== String(i)) fail(`image ${i + 1} is not in service order`)
   services.push({
     title,
-    description: paragraphs.text().trim(),
+    description: textToRichText(paragraphs.text())!,
     linkLabel: link.text().trim() || null,
     link: link.attr('href') || null,
     image: await uploadImage(img.attr('src') || '', `${title}`),

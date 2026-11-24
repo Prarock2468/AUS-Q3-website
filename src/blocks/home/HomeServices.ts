@@ -1,4 +1,5 @@
 import type { Block } from 'payload'
+import { inlineText } from '../../fields/inlineText'
 
 /**
  * "Our Services" on the home page: service areas in an accordion, each with its image, link and sub-services.
@@ -36,7 +37,7 @@ export const HomeServicesBlock: Block = {
       },
       fields: [
         { name: 'title', type: 'text', required: true },
-        { name: 'description', type: 'textarea', required: true },
+        inlineText('description', { required: true }),
         {
           type: 'row',
           fields: [

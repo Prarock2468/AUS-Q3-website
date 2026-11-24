@@ -1,5 +1,5 @@
 import { getAllPages, getCaseStudies, getInsights, getSettings } from '@/lib/data'
-import { author, mediaUrl } from '@/lib/render/parts'
+import { author, mediaUrl } from '@/lib/media'
 
 /**
  * Site search index, read by /js/templates/search.min.js. Built from the CMS, so new pages, case studies and

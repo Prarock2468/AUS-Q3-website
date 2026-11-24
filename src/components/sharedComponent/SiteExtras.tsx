@@ -1,4 +1,4 @@
-import { renderExtras } from '@/lib/render/chrome'
+import { renderExtras } from '@/lib/chrome'
 import type { SiteSetting } from '@/payload-types'
 import type { Template } from '@/templates'
 import { HtmlElements } from './HtmlElements'

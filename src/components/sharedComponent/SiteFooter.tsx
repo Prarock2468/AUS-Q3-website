@@ -1,4 +1,4 @@
-import { renderFooter } from '@/lib/render/chrome'
+import { renderFooter } from '@/lib/chrome'
 import type { SiteSetting } from '@/payload-types'
 import { HtmlElements } from './HtmlElements'
 

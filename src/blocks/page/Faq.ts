@@ -1,4 +1,6 @@
 import type { Block } from 'payload'
+import { inlineText } from '../../fields/inlineText'
+import { textToRichText } from '../../fields/richTextValue'
 import { simpleEditor } from '../../lexical'
 import { FAQ_STYLES } from '../shared'
 
@@ -20,12 +22,11 @@ export const FaqBlock: Block = {
         },
       ],
     },
-    {
-      name: 'intro',
-      type: 'textarea',
-      defaultValue:
+    inlineText('intro', {
+      defaultValue: textToRichText(
         'Find quick answers to the most commonly asked questions about our services, process, pricing, timelines, and support.',
-    },
+      ) ?? undefined,
+    }),
     { name: 'showSalesContact', type: 'checkbox', defaultValue: true, label: 'Show "Schedule a call" card' },
     {
       name: 'items',

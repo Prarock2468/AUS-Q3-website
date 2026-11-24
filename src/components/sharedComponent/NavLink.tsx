@@ -1,5 +1,5 @@
 import type { AnchorHTMLAttributes } from 'react'
-import type { navState } from '@/lib/render/chrome'
+import type { navState } from '@/lib/chrome'
 
 export type NavState = ReturnType<typeof navState>
 

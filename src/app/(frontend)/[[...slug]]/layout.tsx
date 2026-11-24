@@ -1,4 +1,6 @@
 import React from 'react'
+import { preload } from 'react-dom'
+import { SiteScripts } from '@/components/sharedComponent/SiteScripts'
 import { getSettings, resolvePath, toPath } from '@/lib/data'
 import { ASSET_VERSION, TEMPLATES } from '@/templates'
 
@@ -31,6 +33,9 @@ export default async function SiteLayout({ children, params }: Props) {
   const settings = await getSettings()
   const bodyClass = r.kind === 'page' ? r.doc.bodyClass || undefined : undefined
   const v = `?v=${ASSET_VERSION}`
+  const scripts = template.js.map((src) => (src === '/js/search-index.js' ? src : `${src}${v}`))
+  // The site scripts start downloading with the page; SiteScripts runs them once React has hydrated it.
+  scripts.forEach((src) => preload(src, { as: 'script' }))
 
   return (
     <html lang="en-AU" className={template.htmlClass} suppressHydrationWarning>
@@ -41,13 +46,11 @@ export default async function SiteLayout({ children, params }: Props) {
           <link key={href} rel="stylesheet" href={`${href}${v}`} />
         ))}
         <link rel="preload" href="/assets/fonts/google-sans-flex.woff2" as="font" type="font/woff2" crossOrigin="" />
-        {template.js.map((src) => (
-          <script key={src} src={src === '/js/search-index.js' ? src : `${src}${v}`} defer />
-        ))}
         {settings.gtmId ? <script dangerouslySetInnerHTML={{ __html: gtmLoader(settings.gtmId) }} /> : null}
       </head>
       <body className={bodyClass} suppressHydrationWarning>
         {children}
+        <SiteScripts srcs={scripts} />
       </body>
     </html>
   )

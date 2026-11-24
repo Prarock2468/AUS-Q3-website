@@ -1,4 +1,5 @@
 import type { Block } from 'payload'
+import { inlineText } from '../../fields/inlineText'
 import { buttonsField } from './fields'
 
 /**
@@ -27,7 +28,7 @@ export const HomeHeroBlock: Block = {
       ],
     },
     { name: 'heading', type: 'text', required: true, admin: { description: 'The page’s main heading (h1).' } },
-    { name: 'intro', type: 'textarea' },
+    inlineText('intro'),
     buttonsField(),
     {
       type: 'collapsible',

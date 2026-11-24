@@ -1,6 +1,7 @@
-import { media } from '@/lib/render/parts'
+import { media } from '@/lib/media'
 import { Buttons } from './Buttons'
-import type { SectionProps } from './types'
+import type { SectionProps } from '../sections/types'
+import { RichText, hasText } from '../ui/RichText'
 
 /**
  * Home hero (section.home-hero), from the "Hero (home page)" section in the CMS: badges, the h1, intro, buttons,
@@ -53,9 +54,9 @@ export function HomeHero({ block }: SectionProps<'homeHero'>) {
           ) : null}
           <h1 id="hero-title">{block.heading}</h1>
           <div className="hero-bottom">
-            {block.intro ? (
+            {hasText(block.intro) ? (
               <p className="lede" suppressHydrationWarning>
-                {block.intro}
+                <RichText value={block.intro} />
               </p>
             ) : null}
             {buttons.length ? (

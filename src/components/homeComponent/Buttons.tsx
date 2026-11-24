@@ -1,4 +1,4 @@
-import { ArrowIcon } from './icons'
+import { ArrowIcon } from '../ui/icons'
 
 type Button = { id?: string | null; label: string; link: string; style?: 'primary' | 'outline' | null; trackingId?: string | null }
 

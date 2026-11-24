@@ -1,4 +1,4 @@
-import type { MenuItem } from '@/lib/render/chrome'
+import type { MenuItem } from '@/lib/chrome'
 import { MobileSubmenuToggle } from './MobileAccordion'
 import { NavLink, type NavState } from './NavLink'
 

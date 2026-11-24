@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 import { notFound, permanentRedirect } from 'next/navigation'
-import { HtmlElements, LivePreviewListener, SiteHeader, SkipLink } from '@/components/sharedComponent'
-import { TemplateHome } from '@/components/template-home'
+import { PageSections } from '@/components/sections/PageSections'
+import { LivePreviewListener } from '@/components/sharedComponent'
+import { CaseStudyArticle, InsightArticle, TemplateChrome } from '@/components/templates'
 import { getAllPages, getCaseStudies, getInsights, getSettings, isDraft, resolvePath, toPath } from '@/lib/data'
-import { renderBody } from '@/lib/render/body'
 import { buildJsonLd, buildMetadata } from '@/lib/seo'
 
 type Props = { params: Promise<{ slug?: string[] }> }
@@ -38,18 +38,13 @@ export default async function SitePage({ params }: Props) {
 
   return (
     <>
-      {/* The page markup is server-rendered HTML that the site's original scripts enhance, so React leaves it alone. */}
-      {r.kind === 'page' && r.template === 'home' ? (
-        <div id="site" style={{ display: 'contents' }} suppressHydrationWarning>
-          <TemplateHome page={r.doc} path={r.path} settings={settings} />
-        </div>
-      ) : (
-        <div id="site" style={{ display: 'contents' }} suppressHydrationWarning>
-          <SkipLink />
-          <SiteHeader settings={settings} path={r.path} />
-          <HtmlElements html={await renderBody(r, settings, { header: false })} />
-        </div>
-      )}
+      <div id="site" style={{ display: 'contents' }} suppressHydrationWarning>
+        <TemplateChrome settings={settings} path={r.path} template={r.template} mainClass={r.kind === 'page' ? r.doc.mainClass : null}>
+          {r.kind === 'page' ? <PageSections blocks={r.doc.layout} settings={settings} template={r.template} /> : null}
+          {r.kind === 'caseStudy' ? <CaseStudyArticle cs={r.doc} /> : null}
+          {r.kind === 'insight' ? <InsightArticle post={r.doc} /> : null}
+        </TemplateChrome>
+      </div>
       {jsonLd.map((data, i) => (
         <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data).replace(/</g, '\\u003c') }} />
       ))}

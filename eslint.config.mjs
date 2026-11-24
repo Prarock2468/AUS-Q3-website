@@ -25,6 +25,16 @@ const eslintConfig = defineConfig([
       ],
     },
   },
+  {
+    // The public site uses plain <a> links on purpose: every page is a full page load, because each template loads
+    // its own stylesheets and the original site scripts (src/templates.ts), which a client-side <Link> navigation
+    // would not reload. Images are plain <img> with the original markup (sizes and srcsets come from Media).
+    files: ['src/components/**/*.tsx'],
+    rules: {
+      '@next/next/no-html-link-for-pages': 'off',
+      '@next/next/no-img-element': 'off',
+    },
+  },
   globalIgnores([
     '.next/**',
     'out/**',

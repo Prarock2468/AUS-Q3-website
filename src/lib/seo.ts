@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import type { CaseStudy, Insight, Page, SiteSetting } from '@/payload-types'
 import type { Resolved } from './data'
 import { richTextToText } from './richtext'
-import { media } from './render/parts'
+import { media } from './media'
 
 /** Public address of the site, for example https://www.q3tech.com/en-au (no trailing slash). */
 export const siteUrl = () => (process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000').replace(/\/$/, '')
@@ -22,7 +22,12 @@ export function buildMetadata(r: Resolved, settings: SiteSetting): Metadata {
   const title = doc.meta?.title || fallbackTitle
   const description = doc.meta?.description || doc.summary || doc.searchDescription || undefined
   const canonical = doc.seoExtras?.canonical || `${siteUrl()}${r.path === '/' ? '/' : r.path}`
-  const image = absolute(media(doc.meta?.image)?.url) || absolute(settings.defaultOgImage) || undefined
+  // The page's own image (SEO tab), else Site settings → Default social sharing image (uploaded, or the old address).
+  const image =
+    absolute(media(doc.meta?.image)?.url) ||
+    absolute(media(settings.defaultShareImage)?.url) ||
+    absolute(settings.defaultOgImage) ||
+    undefined
   const globalUrl = doc.seoExtras?.globalUrl
 
   return {

@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
-import { media } from '@/lib/render/parts'
+import { media } from '@/lib/media'
 import { Buttons } from './Buttons'
-import type { SectionProps } from './types'
+import type { SectionProps } from '../sections/types'
 
 const DEFAULT_ICON = '/assets/icons/recognition-default.svg'
 
@@ -41,7 +41,6 @@ export function HomeAbout({ block }: SectionProps<'homeAbout'>) {
             {stats.map((s, i) => (
               <li key={s.id || i} className="recstat">
                 <span className="recstat-badge">
-                  {/* eslint-disable-next-line @next/next/no-img-element -- small decorative icon, same markup as the original site */}
                   <img
                     decoding="async"
                     className="recstat-ico recstat-ico-img"

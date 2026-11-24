@@ -15,6 +15,7 @@ import path from 'path'
 import * as cheerio from 'cheerio'
 import { getPayload } from 'payload'
 import config from '../../payload.config'
+import { textToRichText } from '../../fields/richTextValue'
 import type { Page } from '../../payload-types'
 
 type Section = NonNullable<Page['layout']>[number]
@@ -77,7 +78,7 @@ for (const [i, el] of slides.entries()) {
   if (!src) fail(`industry ${i + 1} has no image`)
   industries.push({
     title,
-    description: paragraphs.text().trim(),
+    description: textToRichText(paragraphs.text())!,
     linkLabel: link.text().trim() || null,
     link: link.attr('href') || null,
     image: await uploadImage(src, title),

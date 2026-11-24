@@ -1,4 +1,5 @@
 import type { Block } from 'payload'
+import { inlineText } from '../../fields/inlineText'
 
 /**
  * "Industries We Serve" on the home page: one tab per industry, each with its image, text and link.
@@ -36,7 +37,7 @@ export const HomeIndustriesBlock: Block = {
       },
       fields: [
         { name: 'title', type: 'text', required: true, admin: { description: 'Tab label and heading, for example "Education".' } },
-        { name: 'description', type: 'textarea', required: true },
+        inlineText('description', { required: true }),
         {
           type: 'row',
           fields: [

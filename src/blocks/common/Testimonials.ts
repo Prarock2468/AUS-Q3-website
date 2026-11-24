@@ -5,7 +5,7 @@ export const TESTIMONIALS_ENTRY_KEY = 'testimonial-slider'
 
 /**
  * "Testimonials" page section: shows testimonials picked from the list in Common Component → Testimonial Slider
- * (where they are added and edited). Rendered by src/lib/render/common.ts (renderTestimonials).
+ * (where they are added and edited). Rendered by src/components/commonComponent/TestimonialSlider.tsx (Testimonials).
  */
 export const TestimonialsBlock: Block = {
   slug: 'testimonials',

@@ -1,9 +1,6 @@
+/** Home template sections (picked by components/sections/PageSections, like every other section). */
 export { Buttons } from './Buttons'
 export { HomeAbout } from './HomeAbout'
 export { HomeHero } from './HomeHero'
 export { HomeIndustries } from './HomeIndustries'
-export { HomeSection } from './HomeSection'
 export { HomeServices } from './HomeServices'
-export { HtmlSection } from './HtmlSection'
-export { RenderedSection } from './RenderedSection'
-export type { BlockOf, SectionProps } from './types'

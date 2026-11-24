@@ -1,4 +1,5 @@
 import type { Block } from 'payload'
+import { inlineText } from '../../fields/inlineText'
 
 /** Contact form band. */
 export const ContactBand: Block = {
@@ -6,7 +7,7 @@ export const ContactBand: Block = {
   labels: { singular: 'Contact form band', plural: 'Contact form bands' },
   fields: [
     { name: 'heading', type: 'text', required: true },
-    { name: 'text', type: 'textarea' },
+    inlineText('text'),
     {
       name: 'thanksText',
       type: 'text',
